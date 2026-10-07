@@ -18,6 +18,10 @@ Each skill is one folder with one `SKILL.md`: YAML frontmatter (`name`, `descrip
 
 Convention inspired by [mattpocock/skills](https://github.com/mattpocock/skills) (layout only).
 
+## Skills
+
+- [`outreach`](skills/outreach/SKILL.md): Draft one candidate outreach message for human review and send only; never auto-send email or LinkedIn.
+
 ## Hard rules
 
 - Human in the loop: assistive drafts only; never hire/reject/"screen for you"
