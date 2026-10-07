@@ -20,7 +20,7 @@ Convention inspired by [mattpocock/skills](https://github.com/mattpocock/skills)
 
 ## Skills
 
-- [`outreach`](skills/outreach/SKILL.md): Draft one candidate outreach message for human review and send only; never auto-send email or LinkedIn.
+- [`outreach`](skills/outreach/SKILL.md): Draft one cold outreach (initial + follow-up) for human review/send; includes contact pre-flight and archetypes.
 
 ## Hard rules
 
