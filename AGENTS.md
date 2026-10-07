@@ -1,6 +1,6 @@
 # AGENTS.md
 
-Skills live at `skills/<skill-name>/SKILL.md`. One folder per skill, one `SKILL.md` per folder. Do not create `.cursor/skills` or `.claude/skills` copies.
+Skills live at `skills/<skill-name>/SKILL.md`. One folder per skill, one `SKILL.md` per folder. Do not create `.cursor/skills` or `.claude/skills` duplicates. Do not add plugin packaging.
 
 Each `SKILL.md` starts with YAML frontmatter:
 
@@ -11,11 +11,10 @@ description: "<one line: what it does and when to use it>"
 ---
 ```
 
-When adding or changing a skill:
+Before adding a skill:
 
-- Follow the checklist in `docs/QUALITY_BAR.md`.
-- Tie it to a loop in `docs/LOOPS_AND_METRICS.md`.
-- List it in `README.md` and `docs/INDEX.md`.
-- MCP kit skills stay read-only and use only tools in `docs/MCP_KIT.md`.
+- Pass every row in `docs/QUALITY_BAR.md`
+- Cite provenance (operator-vetted procedure or named reference fork)
+- Prefer one skill per PR
 
-Hard rules: skills augment recruiters and never hire or screen "for you"; scores and ranks are assistive drafts for human review; outreach is never auto-sent; synthetic examples only (no real PII, UUIDs, or guest pack URLs); no em-dashes.
+Hard rules: augment recruiters only; never hire or screen "for you"; scores/ranks are assistive drafts; never auto-send outreach; synthetic examples only (no real PII, UUIDs, or live profile URLs); no em-dashes; keep playbooks portable (LinkedIn / generic ATS), not locked to one product.

@@ -1,8 +1,12 @@
 # recruiting-skills
 
-Agent Skills for recruiting operators, from [Pairwise](https://pairwise.ai).
+Public Agent Skills for recruiting operators.
 
-These skills augment recruiters. They do not hire, reject, or screen "for you", and they do not power Pairwise production scoring. Anything that looks like a score, rank, or flag is an assistive draft for human review. Outreach is drafted for a human to send, never auto-sent.
+This repo starts nearly empty on purpose. v0 ships the layout convention and the quality gate only. Skills land one at a time after they are operator-vetted or adapted from a named strong reference (with attribution). Bulk AI packs do not ship here.
+
+Skills **augment** recruiters. They do not hire, reject, or screen "for you." Anything that looks like a score, rank, or flag is an assistive draft for human review. Outreach is drafted for a human to send; never auto-sent.
+
+This repo is **not** locked to any one ATS or recruiting product. Playbooks should work on a LinkedIn / generic ATS hiring pipeline. Platform-specific MCP tooling lives in a separate repo.
 
 ## Layout
 
@@ -10,32 +14,27 @@ These skills augment recruiters. They do not hire, reject, or screen "for you", 
 skills/<skill-name>/SKILL.md
 ```
 
-Each skill is one folder with one `SKILL.md`: YAML frontmatter (`name`, `description`) followed by a markdown body. The same tree works in Cursor and Claude Agent Skills environments. Point your agent at `skills/`, or copy the skill folders you want into your own skills directory.
+Each skill is one folder with one `SKILL.md`: YAML frontmatter (`name`, `description`) followed by a markdown body. Same tree works in Cursor and Claude Agent Skills environments. Point your agent at `skills/`, or copy the folders you want into your own skills directory.
 
-## Skills
+Convention inspired by [mattpocock/skills](https://github.com/mattpocock/skills) (layout only).
 
-**Screening playbooks**
+## Hard rules
 
-- [`domain-fit-over-score`](skills/domain-fit-over-score/SKILL.md): flag mid/low assistive scores when title + company signal strong domain fit, for human dig-deeper
-- [`hard-screens-interviewable`](skills/hard-screens-interviewable/SKILL.md): turn must-haves into interviewable questions with probe depth
-- [`ideal-anti-persona`](skills/ideal-anti-persona/SKILL.md): build ideal and anti-persona cards from likes and shipped profiles, not the JD alone
-- [`sourcing-plays`](skills/sourcing-plays/SKILL.md): near-miss pairs, empty-filter vs empty-pool, employer/problem search, lab-to-grad
-- [`draft-for-human-send`](skills/draft-for-human-send/SKILL.md): outreach drafts for human review and send only
-
-**Read-only Pairwise MCP kit**
-
-- [`mcp-session-whoami`](skills/mcp-session-whoami/SKILL.md): confirm session and read scope
-- [`mcp-job-discovery`](skills/mcp-job-discovery/SKILL.md): dashboards and service requests
-- [`mcp-funnel-read`](skills/mcp-funnel-read/SKILL.md): stage summary, one stage, one application
-- [`mcp-interviews-read`](skills/mcp-interviews-read/SKILL.md): interview inventory and transcript (permission-gated)
-
-The MCP kit is read-only, forever. It does not return resume PDF text; never invent resume claims. All examples in this repo are synthetic.
+- Human in the loop: assistive drafts only; never hire/reject/"screen for you"
+- Never auto-send outreach, LinkedIn DMs, or email
+- Synthetic examples only (no real candidate PII, live profile URLs, pipeline UUIDs, or named-client exemplars)
+- No production scoring internals or "how to game" a rank
+- No em-dashes
 
 ## Docs
 
-- [`docs/MCP_KIT.md`](docs/MCP_KIT.md): MCP kit scope, tools, and hard limits
-- [`docs/LOOPS_AND_METRICS.md`](docs/LOOPS_AND_METRICS.md): human-in-the-loop loops each skill feeds
-- [`docs/QUALITY_BAR.md`](docs/QUALITY_BAR.md): what a skill must contain to land here
+- [`docs/QUALITY_BAR.md`](docs/QUALITY_BAR.md): what a skill must contain before it lands here
+
+## Adding a skill
+
+1. Write `skills/<name>/SKILL.md` against `docs/QUALITY_BAR.md`
+2. Cite provenance: original operator procedure (with how it was vetted) **or** explicit fork/adapt from a named reference
+3. Open a PR with one skill (or a tiny related set). Prefer tiny.
 
 ## License
 

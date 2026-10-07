@@ -1,13 +1,8 @@
 # QUALITY_BAR
 
-A skill in this repo is an **operator-runnable playbook**, not a vibe outline. Someone who has never seen the skill should be able to run it end-to-end from the file alone: when to use it, what to gather, what steps to take, what a good output looks like, what usually goes wrong, and which loop it feeds.
+A skill in this repo is an **operator-runnable playbook**, not a vibe outline. Someone who has never seen the skill should be able to run it end-to-end from the file alone: when to use it, what to gather, what steps to take, what a good output looks like, and what usually goes wrong.
 
-Two packages stay distinct:
-
-1. **Screening playbooks** - recruiting operator skills (assistive drafts for human review).
-2. **Read-only Pairwise MCP kit** - optional companion for reading pipeline data the caller can already see.
-
-Skills **augment recruiters**. They do not hire, reject, or screen "for you." Score/rank language is always assistive draft language. MCP stays forever read-only.
+Skills **augment recruiters**. They do not hire, reject, or screen "for you." Score/rank language is always assistive draft language.
 
 ## Completeness checklist (every skill)
 
@@ -22,20 +17,24 @@ Skills **augment recruiters**. They do not hire, reject, or screen "for you." Sc
 | Worked synthetic example | One end-to-end example with fake names / placeholder IDs |
 | Failure modes / edge cases | What usually breaks or misleads |
 | Forever don'ts | Hard bans (see hygiene below) |
-| Measure this loop | Named loop + metric(s) from `LOOPS_AND_METRICS.md` |
-
-MCP kit skills additionally:
-
-- Say **read-only** in the title or first purpose line
-- Name only tools from the table in `MCP_KIT.md`
-- Remind: no resume PDF via MCP; never invent resume claims; guest packs are web URLs
+| Provenance | One short line: operator-vetted (how) **or** adapted from `<named reference>` with what changed |
 
 Target length: roughly 60-120 lines. Tight but real.
 
 ## Voice and hygiene
 
 - No em-dashes. Use commas, periods, colons, or hyphens.
-- Synthetic examples only. No real UUIDs, guest pack URLs, candidate PII, or live LinkedIns.
-- No named-client exemplars or experiments.
-- No scoring-model internals, fraud thresholds, production KPIs, or "how to raise/game Pairwise score."
-- No write/mutate MCP surface.
+- Synthetic examples only. No real UUIDs, candidate PII, or live profile URLs.
+- No named-client exemplars.
+- No production scoring internals or "how to raise/game" a rank.
+- Portable: LinkedIn / generic ATS framing. Do not require a specific product UI or proprietary API.
+- Never auto-send outreach.
+
+## Landing bar
+
+Do not land a skill unless:
+
+1. It passes the checklist above, **and**
+2. It is either rewritten by a human operator against a real loop, **or** clearly forked/adapted from a named strong reference with attribution.
+
+Bulk AI-generated packs fail this bar by default.
