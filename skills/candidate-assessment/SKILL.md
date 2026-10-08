@@ -1,97 +1,112 @@
 ---
 name: candidate-assessment
 description: >-
-  Assess one candidate against a weighted role-assessment profile, axis by axis,
-  with evidence-backed reads (Ideal, Strong, Unverified, Gap, Major risk) and a
-  verdict: interview, knockout screen, pass, or do-not-contact. Use when a
-  recruiter pastes a LinkedIn profile or resume and asks "is this person worth
-  it?", or wants a profile read before outreach or an interview. Optional short
-  summary for one candidate. Not for building the role profile itself.
+  Read one candidate against a role-requirements profile, axis by axis, from
+  whatever evidence exists (a full file, one resume, a screen transcript, or a
+  single paragraph). Returns evidence-backed reads, a separate authenticity
+  call, and a verdict with its confidence. Use when a recruiter asks "is this
+  person worth it?", wants a read before outreach, or has screen notes to act
+  on. Works for any role. Not for building the role profile itself.
 ---
 
 # candidate-assessment
 
-**When to use:** A recruiter has a candidate's profile or resume and a role, and wants a structured read of fit before spending outreach or interview time.
+**When to use:** A recruiter has something about a candidate and a role, and wants a structured read of fit before spending outreach, screen or interview time.
 
-**When not to use:** No role profile yet and no time to build one (run role-assessment first); bulk ranking without per-candidate evidence.
+**When not to use:** Building the role profile (use role-requirements); bulk ranking without per-candidate evidence; writing an interview guide.
 
 ## Purpose
 
-Apply the role's weighted profile to one candidate so the read is consistent, cites evidence, and separates what is verified from what is only claimed. Assistive only: the verdict is a recommendation for a human, never a hire, reject or contact action.
+Apply the role's profile to one candidate so the read is consistent, cites evidence, and separates what happened from what is only claimed. More sources make a stronger read, but a sparse input still gets a useful read with a stated confidence. Assistive only: the verdict is a recommendation for a human, never a hire, reject or contact action.
 
 ## Inputs
 
-- **Role profile** from role-assessment (axes, weights, must-haves, knockouts, screen questions). If none exists, build it first with that skill.
-- **Candidate evidence:** LinkedIn profile, resume, publications, screen notes or transcripts. Note which source each fact comes from.
-- Optional operator context: known comp expectations, relocation stance, referral, prior conversations.
+- **Role profile** from role-requirements. If none exists, build a quick one with that skill first and mark it draft.
+- **Candidate evidence, any subset:** resume, LinkedIn profile, list of roles and companies, screen notes or transcript, work samples, a recruiter's paragraph. Nothing is required except some text about the person.
+- Optional operator context: comp expectations, relocation stance, referral, prior conversations.
+- Optional: a matching `domain-<field>-*` skill for field-specific inflation signals and ownership cues.
 
 ## Outputs
 
-- **Per-axis table:** axis, evidence (with source), read, and whether the evidence is verified or claimed.
-- **Verdict:** interview, knockout screen, pass, or do-not-contact, with a one-line reason.
-- **Verification questions:** one per Unverified item, phrased so the answer is concrete.
-- Optional **summary** (phase 3) for a single candidate.
-- When the verdict is interview or knockout screen, hand off to the `outreach` skill to draft contact copy for human review.
+- **Evidence inventory:** the sources used.
+- **Per-axis table:** evidence, its basis (verified, claimed or inferred) and source, and the read.
+- **Authenticity call:** Owned, Mixed or Resume-deep, or "not assessable: one source." Kept separate from fit.
+- **Verdict** with a one-line reason and a confidence (low, medium, high).
+- **What would change this read:** the one extra source worth getting next.
+- **Open items:** at most 3 things a screen or reference must settle, stated as what to find out, not as scripted questions.
+- Optional **short summary** for a single candidate.
 
 ## Read scale
 
 | Read | Meaning |
 |---|---|
-| Ideal | Directly matches a must-have, with specific evidence |
-| Strong | Matches, or an adjacent skill the profile accepts |
+| Ideal | Matches a must-have, on **verified** evidence |
+| Strong | Matches, or an accepted adjacent skill; claimed evidence caps here |
 | Unverified | Plausible but claimed, implied by title, or ambiguous |
-| Gap | Missing; learnable or covered by another axis |
+| Gap | Missing; say whether it is learnable in the time the role allows |
 | Major risk | Likely to sink the hire even if everything else fits |
+
+Verified means shown in a work product, a screen, or consistent detail across independent sources. A skills list, headline or summary is claimed.
 
 ## Procedure
 
-1. **Eligibility first.** Check the profile's knockouts before reading anything else: current client employee, inside a contract cooldown, work authorization, location and on-site days. A current client employee is do-not-contact. A former client contractor past cooldown is eligible and worth noting as motivated. Stop here on any hard knockout.
-2. For each remaining axis, cite the evidence, then assign a read. Mark each fact verified (shown in work product, publications or a screen) or claimed (skills list, headline, summary).
-3. **Owner vs coordinator.** For hands-on work, decide whether they designed and ran it or directed, supported or compiled it. Titles like field applications, program, technical lead or "supported customers" default to Unverified until a screen confirms ownership.
-4. **Motivation and level fit.** Compare their current level, scope and comp structure (base, bonus, equity) with the role's. Would they see it as a step up, sideways or a step down? Can the seat compete with their career ladder? A manager or designer will rarely take a technician-level seat unless out of work. Flag relocation, and bonus-heavy or equity pay that a contract rate will not replace.
-5. Weigh the reads with the profile's weights. A Major risk on a heavy axis outweighs several Strongs on light ones.
-6. Pick a verdict: **interview** (must-haves verified, no Major risk); **knockout screen** (promising, but key items Unverified or one Major risk a call can settle); **pass** (missing a true must-have); **do-not-contact** (eligibility knockout).
-7. Write one verification question per Unverified item, drawing on the profile's screen questions.
-8. Optional phase 3, single candidate only, at the agent's discretion: 3-5 lines of key highlights and lowlights plus the verdict. Leave out the full table and any numbers. When comparing many candidates, stop at step 7.
+1. **Inventory the evidence.** List each source. Note which axes it can and cannot speak to.
+2. **Eligibility first.** Apply the profile's knockouts. A current employee of the hiring company, or anyone inside a client-agreement restriction, is do-not-contact. Stop on any hard knockout.
+3. **Read each axis.** Cite evidence, mark its basis, assign a read. With no evidence for an axis, write "no evidence," not Gap.
+4. **Compare sources.** Where two sources cover the same work, list contradictions (dates, titles, scope, tools, results). Make the authenticity call:
+   - **Owned:** sources agree, with specific detail on what they did.
+   - **Mixed:** some claims hold, some are inflated or contradicted.
+   - **Resume-deep:** claims fall apart under a second source or a screen.
+5. **Check inflation signals:** results with no baseline; plans or simulations presented as delivered results; team results stated as personal; titles that do not match the described work; skills lists that echo the job description.
+6. **Ownership and trajectory.** Did they own the work or support it? Program, field, coordinator or "supported" titles default to Unverified. Read direction of travel, not only level: is their career moving toward this role's work or away from it, and why are they leaving now?
+7. **Level, comp and environment fit.** Step up, sideways or step down? Flag relocation, and bonus or equity a new plan will not replace. Read team and environment fit only from real evidence.
+8. **Judge transferability** for each Gap: learnable because of adjacent evidence (name it), or not in the time the role allows.
+9. **Verdict.** Before a screen: **interview**, **screen first** (promising, key items unverified), **pass** (misses a true must-have), **do-not-contact** (eligibility). After a screen: **advance**, **hold as fallback**, **pass**, or **reference check first** when sources still disagree. A Major risk on a Critical or High axis caps the verdict at screen first or hold. Set confidence from evidence depth: one source is low.
+10. Write what would change the read, and up to 3 open items.
+11. Optional short summary, single candidate only: 3-5 lines of highlights, lowlights and the verdict. When the verdict is interview or screen first, hand off to candidate-outreach.
 
 ## Worked synthetic example
 
-**Candidate (synthetic):** Sam Okafor, Principal FAE at Brightmoor Sensors (fictional MEMS supplier), about 15 years of experience, based in another state. **Role:** the Northwind Devices sensor characterization contract from the role-assessment example.
+**Candidate (synthetic):** Dana Whitfield, Account Executive at Copperline Payroll (fictional). **Role:** the Fernvale mid-market AE profile from role-requirements. **Sources:** resume, LinkedIn.
 
-Eligibility: not a Northwind employee, no prior engagement, authorized to work. Clear; continue. Rows follow the profile's axes, split where the evidence differs (hands-on depth becomes reporting, bring-up and characterization).
+Eligibility: not a Fernvale employee, never placed by Ridgeway, Denver-based. Clear.
 
-| Axis | Evidence | Read |
+| Axis (tier) | Evidence (basis, source) | Read |
 |---|---|---|
-| Domain | Consumer IMUs and pressure sensors for the supplier's largest customers (claimed, profile) | Ideal |
-| Reporting | Delivered characterization and qualification reports with product, reliability and packaging teams (claimed) | Strong; may have compiled reports rather than generated the data |
-| Device bring-up | Schematic and layout reviews, board bring-up, field-return failure analysis (claimed) | Strong |
-| Integration knowledge | Wrote internal customer design guides on board layout and part handling (verified, internal) | Strong and rare: board stress and assembly effects |
-| Hands-on characterization | Field role: supports customers, coordinates product engineering (claimed, title) | Unverified: owner or coordinator? |
-| Scripting (MATLAB/Python) | Not mentioned anywhere; hardware-design heavy (profile silent) | Gap |
-| Level and comp fit | Principal, likely paid above the role's ceiling with a large bonus; relocation needed; the seat has no equity (inferred from level and location) | Major risk |
+| Ownership depth (Critical) | "142% of quota FY25" (claimed, resume); no quota size or deal count | Unverified: no baseline; team or personal? |
+| Domain (High) | Sells payroll software to HR and finance leads (claimed, both agree) | Strong (claimed caps here) |
+| Comp and level (High) | Resume: "Account Executive" to 2025. LinkedIn: "Senior AE, Mid-Market" since 2024 | Unverified: titles disagree |
+| Skills (Medium) | "Forecasting, MEDDICC, discovery" in skills list, worded like the JD (claimed) | Unverified: echoes JD |
+| Team and environment (Medium) | No evidence | No evidence |
+| Background (Medium) | B2B SaaS, sales-led (both agree) | Strong |
 
-**Verdict:** knockout screen. Domain and integration knowledge are rare, but ownership is unverified and level fit is a major risk. Ask comp expectations early.
+**Transferability:** mid-market cycle length is a Gap; learnable, because they already sell to finance buyers on shorter cycles.
 
-**Verification questions:** Which characterization did you personally run, on what part, and what did you extract? What did you use to analyze the data? What total comp and location would make a contract seat worth it?
+**Authenticity:** Mixed. Title dates conflict and the headline number has no baseline. Not a red flag alone.
 
-**Phase 3 summary:** Ideal domain and rare integration depth; strong bring-up. Bench ownership unverified and no scripting shown. Likely a step down on comp and level, with relocation. Screen before interviewing.
+**Verdict:** screen first, confidence low (two self-written sources). Trajectory points toward mid-market, which fits.
+
+**What would change this read:** a screen on which deals they closed alone; a reference if titles still disagree.
+
+**Open items:** quota size and how many deals were theirs alone; when the title changed and what scope came with it; how they run discovery with finance leads.
 
 ## Failure modes / edge cases
 
-- Reading eligibility last and wasting a screen on a client employee or someone inside cooldown.
-- Treating a skills list as verified hands-on work, or a field or program title as ownership.
-- Ignoring comp structure, so a strong candidate drops out at the offer stage.
+- Reading eligibility last and wasting a screen.
+- Treating a skills list or title as verified, or giving Ideal to a claim.
+- Reading each source alone, so contradictions between them go unseen.
+- Refusing to read on sparse input instead of lowering confidence.
 - Letting one Ideal axis carry a candidate who misses a heavier must-have.
-- Dumping the full table into a summary meant for a quick decision.
+- Turning open items into an interview script.
 
 ## Forever don'ts
 
 - Never hire, reject or contact a candidate from this skill; verdicts are recommendations for a human.
-- Never contact a current client employee; never auto-send outreach.
-- Never invent experience, comp or motivation; mark it Unverified.
-- No real candidate PII or client names in shared examples; no production scoring internals.
-- No assistant-specific channels, repos or IDs in the recipe.
+- Never contact a current employee of the hiring company; never auto-send outreach.
+- Never invent experience, comp or motivation; mark it no evidence or Unverified.
+- No numeric scores; no production scoring internals.
+- No real candidate PII or client names in shared examples.
 
 ## Provenance
 
-Operator-vetted: a recruiting operator's own candidate-read method (eligibility first, evidence per axis, owner vs coordinator, level and comp fit), used on live hardware engineering loops; the worked example is a synthetic example; QUALITY_BAR; not a bulk AI pack.
+Operator-vetted: a recruiting operator's own candidate-read method (eligibility first, evidence per axis, owner vs supporter, authenticity separate from fit, level and comp fit), used on live hiring loops and generalized to any role; draws on `docs/SOURCES.md`; QUALITY_BAR; not a bulk AI pack.
