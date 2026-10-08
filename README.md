@@ -6,7 +6,7 @@ This repo starts nearly empty on purpose. v0 ships the layout convention and the
 
 Skills **augment** recruiters. They do not hire, reject, or screen "for you." Anything that looks like a score, rank, or flag is an assistive draft for human review. Outreach is drafted for a human to send; never auto-sent.
 
-This repo is **not** locked to any one ATS or recruiting product. Playbooks should work on a LinkedIn / generic ATS hiring pipeline. Platform-specific MCP tooling lives in a separate repo.
+This repo is **not** locked to any one ATS, recruiting product, or employment model (agency, contract, in-house). Playbooks should work on a LinkedIn / generic ATS hiring pipeline. Platform-specific MCP tooling lives in a separate repo.
 
 ## Layout
 
@@ -47,6 +47,7 @@ role-requirements
 ## Docs
 
 - [`docs/QUALITY_BAR.md`](docs/QUALITY_BAR.md): what a skill must contain before it lands here
+- [`docs/SOURCES.md`](docs/SOURCES.md): books and concepts the skills draw on
 
 ## Adding a skill
 

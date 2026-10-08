@@ -30,11 +30,20 @@ Target length: roughly 60-120 lines. Tight but real.
 - Portable: LinkedIn / generic ATS framing. Do not require a specific product UI or proprietary API.
 - Never auto-send outreach.
 
+## Design rules
+
+- **Role-neutral core.** Core skills (`role-*`, `candidate-*`) work for any job. Field-specific knowledge goes in a `domain-*` skill (see `README.md#naming`).
+- **Employment model is an input.** Do not hard-code agency, contract, direct-hire, or in-house framing. Rules that come from a client agreement (cooldowns, tenure caps, non-solicits) are inputs, not laws.
+- **Works with sparse input.** Run on whatever the operator has, from one paragraph to a full file. State confidence and what extra input would change the result. Do not refuse for missing data.
+- **Guidelines, not formulas.** No numeric scores or weights that sum to a number. Use tiers and plain rules a human can check.
+- **Not an interview guide.** Assessment skills may list what is still open, but do not script interviews.
+
 ## Landing bar
 
 Do not land a skill unless:
 
 1. It passes the checklist above, **and**
 2. It is either rewritten by a human operator against a real loop, **or** clearly forked/adapted from a named strong reference with attribution.
+3. The repo owner has reviewed it against this file. Agent self-checks do not count as review.
 
 Bulk AI-generated packs fail this bar by default.
