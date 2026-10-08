@@ -36,6 +36,10 @@ role-requirements
 - Lowercase and hyphens only, at most 64 characters, and the name matches the folder.
 - Choose names to last. Renaming a published skill breaks everyone who points at it.
 
+## Skills
+
+- [`candidate-outreach`](skills/candidate-outreach/SKILL.md): Draft one cold outreach (initial + follow-up) for one candidate, for a human to review and send, or decide not to contact them.
+
 ## Hard rules
 
 - Human in the loop: assistive drafts only; never hire/reject/"screen for you"
