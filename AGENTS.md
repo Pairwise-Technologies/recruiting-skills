@@ -11,6 +11,8 @@ description: "<one line: what it does and when to use it>"
 ---
 ```
 
+Name skills from least specific to most specific: core skills are `<object>-<task>` (for example `role-requirements`, `candidate-assessment`), and role-specific knowledge goes in `domain-<field>-<area>` skills (for example `domain-engineering-hardware`). See `README.md#naming`.
+
 Before adding a skill:
 
 - Pass every row in `docs/QUALITY_BAR.md`
