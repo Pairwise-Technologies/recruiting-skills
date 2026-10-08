@@ -1,92 +1,108 @@
 ---
-name: role-assessment
+name: role-requirements
 description: >-
-  Break a job down into a weighted requirements profile across seven axes
-  (domain, skills, hands-on depth, employer and product background, education,
-  eligibility, comp and level) before judging candidates. Use when opening a new
-  search, when hiring-team feedback changes the bar, when scores or rankings
-  disagree with the team's picks, or before running candidate-assessment. Not
-  for writing the public job post or scoring a pipeline by itself.
+  Break a role into its mission, first-year outcomes and a tiered requirements
+  profile (domain, skills, ownership depth, background, education, team and
+  environment, comp and level, eligibility) before judging candidates. Use when
+  opening a new search, when hiring-team feedback changes the bar, when the
+  team keeps rejecting candidates that looked right on paper, or before running
+  candidate-assessment. Works for any role and employment model. Not for
+  writing the public job post or reading a candidate.
 ---
 
-# role-assessment
+# role-requirements
 
-**When to use:** A recruiter has a job (description, intake notes, hiring-manager input) and needs to know what actually matters, and how much, before reading profiles.
+**When to use:** A recruiter has a role (job description, intake notes, hiring-manager input) and needs to know what actually matters, and how much, before reading profiles.
 
-**When not to use:** Writing the public posting; ranking candidates (use candidate-assessment with this profile as input).
+**When not to use:** Writing the public posting; reading a candidate (use candidate-assessment with this profile as input).
 
 ## Purpose
 
-Turn a role into a weighted requirements profile that phase 2 (candidate-assessment) can apply the same way to every candidate. The weights shift by role, domain and seniority, so set them per search rather than reusing a template. Assistive only: the profile is a draft for the recruiter and hiring team to confirm, not a screening decision.
+Define success for the role first, then turn it into a requirements profile that candidate-assessment applies the same way to every candidate. The profile is a guideline, not a formula: tiers say what matters most, and plain rules say what ends an evaluation. Assistive only: it is a draft for the recruiter and hiring team to confirm, not a screening decision.
 
 ## Inputs
 
-- Job description and any intake or kickoff notes.
-- Hiring-manager or team feedback (the newest input wins over the original description; note the conflict).
-- Engagement facts: contract or FTE, client, site and on-site days, comp range or rate, duration.
-- Optional: profiles the team already liked or rejected, with the reasons. These calibrate the weights better than the description.
+Use whatever exists. Mark anything missing as open rather than guessing.
+
+- Job description, intake or kickoff notes.
+- Hiring-team feedback. The newest input wins over the description; note the conflict.
+- **Employment model:** in-house, agency direct-hire, agency contract, or other. Eligibility rules depend on it.
+- Engagement facts: location and on-site days, comp range and structure, duration for contracts, any client-agreement rules (cooldowns, tenure caps, non-solicits).
+- Optional: candidates the team liked or rejected, with reasons. These calibrate tiers better than the description.
+- Optional: a matching `domain-<field>-*` skill. Load it for typical must-haves, transfer rules and the education bar in that field.
 
 ## Outputs
 
-- **Weighted requirements profile:** one row per axis with must-have, strong-plus and not-required items, a weight (summing to 100), and that axis's knockouts.
-- **Knockout screen questions:** 3-5 questions a recruiter can ask in a first call that separate real hands-on experience from vocabulary.
-- **Open questions** for the hiring team, where the inputs conflict or are silent.
+- **Mission and outcomes:** one line on why the role exists; 3-6 results the hire must deliver in the first year.
+- **Requirements profile:** one row per axis with must-have, strong-plus and not-required items, a tier (Critical, High, Medium, Low), and a signal tag per must-have: **resume** (visible on a resume or profile) or **screen** (needs a conversation to confirm).
+- **Knockouts:** the short list of findings that end an evaluation.
+- **JD disagreements:** where the posting and this profile differ, so the recruiter can fix the posting.
+- **Open questions** for the hiring team.
 
 ## Procedure
 
-1. Gather inputs. If on-site days, engagement type or comp range is missing, ask once and mark it open.
-2. Work each axis. For every item, mark must-have, strong-plus or not-required, and say why.
-   1. **Domain knowledge.** What the person must already understand about the product or physics, and whether a nearby domain transfers (for example, one sensor type to another).
-   2. **Skills.** List them and rate each critical, important or nice. For each, say whether the exact skill is required or an adjacent or related one is enough (another scripting language, another instrument family).
-   3. **Hands-on depth.** For each core skill, the level needed: owner (designed and ran the work, wrote the report), coordinator (directed others, compiled results) or exposure. Say which level is a must.
-   4. **Employer, project and product background.** The company types, teams and products that produce this experience at the right pace and constraints, and how much it matters next to direct evidence.
-   5. **Education.** The realistic bar, for example a PhD plus 0-2 years versus a Master's plus 3-5 years. Name what must accompany the degree to be useful (bench time, industry exposure). Decide whether strong education learns the gap quickly or the role is experience-heavy. For PhD-heavy roles, name the 3-5 standout labs or research groups that feed the field.
-   6. **Eligibility.** Contract cooldown per the client's agreement (often about 6 months); the client's current employees are not candidates, because an employee will not or cannot take a contractor seat; former client contractors past the cooldown are eligible and often motivated to return; location and on-site days; work authorization and sponsorship.
-   7. **Comp, scope and level.** Probable comp range and structure (base, bonus, equity, rate), the actual responsibilities, and the level they map to on a typical career ladder. This lets phase 2 judge whether a candidate sees the role as a step up or a step down.
-3. Set weights. Start even, then move points toward the axes that best predict success in this search. Rules of thumb: senior or specialist roles weight hands-on depth and domain; early-career roles weight education and skills; contract roles weight eligibility and level fit higher, because they fail late and quietly. Eligibility items are knockouts, not points.
-4. Write knockouts per axis: a short list of findings that end the evaluation (client employee, inside cooldown, no work authorization with no sponsorship, missing a true must-have).
-5. Write 3-5 knockout screen questions. Each asks for a specific part, method or result, so a real answer is concrete.
-6. List open questions and send the profile to the recruiter or hiring team to confirm before phase 2.
-
-Per-axis sub-skills may split out later (for example, a dedicated education-bar or comp-level skill). Keep the axis names stable so they can.
+1. Write the mission and first-year outcomes. Derive requirements from the outcomes, not from the description's task list.
+2. Work each axis. Keep these names stable so candidate-assessment and domain skills can refer to them:
+   1. **Domain:** what the person must already understand, and which adjacent domains transfer.
+   2. **Skills:** each one critical, important or nice; say whether the exact skill is needed or an adjacent one is enough.
+   3. **Ownership depth:** for each core outcome, the level needed: owner (did the work and answered for the result), contributor, or exposure.
+   4. **Background:** company types, teams and products that build this experience, and how much they matter next to direct evidence.
+   5. **Education:** the realistic bar, and whether strong education can close a gap fast or the role is experience-heavy.
+   6. **Team and environment:** team size, pace, ambiguity, manager style, on-site expectations.
+   7. **Comp and level:** comp range and structure (base, bonus, equity, rate), real scope, and the level it maps to, so candidate-assessment can judge step up, sideways or step down.
+   8. **Eligibility:** from the employment model and any client agreement: current employees of the hiring company (a default exclusion for external placements; confirm per client), cooldowns, tenure caps, rules against switching employment models without a gap, location, work authorization.
+3. Assign tiers. Move axes up when they best predict success in this search: senior roles usually lean on ownership depth and domain; early-career roles on education and skills; contract roles on eligibility and level fit, which fail late and quietly. Eligibility is a gate, not a tier.
+4. Self-check the profile:
+   - **Double counting:** one piece of evidence should satisfy one axis. If two must-haves are met by the same experience, merge them.
+   - **Observability:** tag each must-have resume or screen. Rephrase must-haves that neither a resume nor a screen can show.
+   - **Over-gating:** only knockouts end an evaluation. Everything else trades off.
+   - **Narrow domain:** name at least one adjacent domain that transfers, or say why none does.
+5. Write knockouts, JD disagreements and open questions. Send the profile to the hiring team to confirm before reading candidates.
 
 ## Worked synthetic example
 
-**Role (synthetic):** Sensor characterization engineer, contract via a staffing partner, at Northwind Devices (fictional consumer wearables OEM), on site 3-4 days, rate equivalent to about $140-180K annualized, no equity. Team feedback: they need people who have handled MEMS parts on a bench, and they have rejected candidates who only knew the noise vocabulary.
+**Role (synthetic):** Mid-market Account Executive at Fernvale (fictional B2B payroll software). Employment model: agency direct-hire through Ridgeway Talent (fictional); the hire joins Fernvale's payroll. Hybrid, 2 days a week in Denver. OTE about $150K, 50/50 base and commission. Team feedback: past hires "knew the vocabulary" but had never closed a deal alone.
 
-| Axis | Must-have | Strong-plus | Not required | Weight |
+**Mission:** grow mid-market revenue in the Mountain region. **Outcomes:** close the first 4 deals by month 6; build 40 qualified opportunities in year one; reach full quota by month 9.
+
+| Axis | Tier | Must-have (signal) | Strong-plus | Not required |
 |---|---|---|---|---|
-| Domain | Hands-on MEMS with a moving mass (inertial or pressure); any proof-mass device transfers | Consumer-volume parts | Optical or thermal sensors as the main domain | 30 |
-| Hands-on depth | Owner of characterization: test plan, data, report | Board bring-up, register-level setup | Coordinator-only history | 25 |
-| Skills | Noise statistics (distributions, noise density, spectra); intermediate scripting for analysis | Instrument automation | Allan-variance vocabulary, rate-table expertise, FEA | 15 |
-| Employer/product | Device maker or sensor supplier | Wearables, phones, headsets | Navigation-grade aerospace | 10 |
-| Education | Master's in EE, ME or physics with bench work | PhD from one of 3-5 inertial-MEMS groups (named in the real profile; placeholders Lab A-D here) | PhD as a gate | 10 |
-| Comp/level | Mid to senior IC; comfortable at the stated rate | Willing to relocate | Manager or principal-level scope | 10 |
-| Eligibility | Not a current client employee; past cooldown; authorized to work | Local | (knockout only) | gate |
+| Ownership depth | Critical | Closed full-cycle deals as the named seller (screen) | Sourced own pipeline | |
+| Domain | High | Sold software to finance or HR buyers (resume) | Payroll or HR tech | Payroll specifically |
+| Comp and level | High | 2+ years carrying quota; a 50/50 plan is a step up, not a cut (resume) | | Enterprise titles |
+| Skills | Medium | Runs own discovery and forecast (screen) | Multi-threading with procurement | Any one CRM |
+| Team and environment | Medium | Works well in a 6-person team with a hands-on manager (screen) | Startup pace | |
+| Background | Medium | B2B SaaS with a sales-led motion (resume) | Mid-market segment | Big-brand employers |
+| Education | Low | | | Degree |
+| Eligibility | Gate | Not a current Fernvale employee; not placed by Ridgeway in the last 12 months (client agreement); US work authorization; in Denver 2 days | | |
 
-**Knockouts:** current Northwind employee; inside the cooldown; no work authorization (this seat does not sponsor); no hands-on moving-mass MEMS at all; manager-only scope with no bench work in years.
+**Self-check:** quota attainment counts under ownership depth only, not again under skills. "Closed deals alone" cannot be seen on a resume, so it is tagged screen.
 
-**Why the weights shifted:** domain transfer dominates because the team's past picks show it hires on proof-mass experience over vocabulary. Level fit gets more than usual because a contract seat with no equity loses senior people late. Allan-variance-style terms are not a knockout. A Master's is enough because the work is bench-heavy, not research.
+**Knockouts:** current Fernvale employee; placed by Ridgeway within 12 months; no work authorization (no sponsorship); never carried a quota.
 
-**Knockout screen questions:** How do you measure and report a sensor's noise density? How do you bring up a digital MEMS part, and what do you set first? Have you personally run a rate table or thermal chamber, on what part, and what did you extract?
+**JD disagreements:** the posting asks for "5+ years enterprise sales," but the team wants mid-market closers with 2+ years; it lists one CRM as required, but the team accepts any.
+
+**Open question:** is relocation support offered?
 
 ## Failure modes / edge cases
 
-- Copying the job description's wish list into must-haves; nothing is weighted, so every candidate looks the same.
-- Treating vocabulary as a knockout when the team cares about hands-on evidence.
-- Forgetting eligibility until late, then losing an offer to a cooldown or a client-employee rule.
-- Setting an education bar higher than the work needs and filtering out strong practitioners.
-- Ignoring comp structure (bonus, equity) so phase 2 misreads level fit.
+- Copying the description's wish list into must-haves; every candidate then looks the same.
+- Two axes scoring the same evidence, so one strength counts twice.
+- Must-haves no resume or screen can show, so every read is a guess.
+- Treating vocabulary as a must-have when the team cares about results.
+- Forgetting eligibility until late, then losing an offer to a cooldown or client rule.
+- An education bar higher than the work needs.
+- Ignoring comp structure, so candidate-assessment misreads level fit.
 
 ## Forever don'ts
 
-- Never present the profile as a hire or reject decision; it is a draft for human confirmation.
-- Never contact candidates or send outreach from this skill; it only produces the profile.
-- Never treat a current client employee as a candidate.
+- Never present the profile as a hire or reject decision.
+- Never contact candidates or send outreach from this skill.
 - Never invent role facts, comp or team feedback; mark gaps as open.
-- No real candidate or client names in shared examples; no production scoring internals.
-- No assistant-specific channels, repos or IDs in the recipe.
+- Never hard-code one employment model's rules as universal.
+- No numeric scores or weights; no production scoring internals.
+- No real candidate or client names in shared examples.
 
 ## Provenance
 
-Operator-vetted: a recruiting operator's own role-breakdown framework (seven axes, per-search weighting, eligibility rules for contract seats), used on live hardware engineering hiring loops and portability-scrubbed for this repo; QUALITY_BAR; not a bulk AI pack.
+Operator-vetted: a recruiting operator's own role-breakdown method (axes, per-search tiers, eligibility rules), used on live hiring loops and generalized to any role and employment model; outcome-first framing draws on `docs/SOURCES.md`; QUALITY_BAR; not a bulk AI pack.
