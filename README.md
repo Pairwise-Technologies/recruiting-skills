@@ -18,6 +18,24 @@ Each skill is one folder with one `SKILL.md`: YAML frontmatter (`name`, `descrip
 
 Convention inspired by [mattpocock/skills](https://github.com/mattpocock/skills) (layout only).
 
+## Naming
+
+Skill names run from least specific to most specific, so a sorted list groups related skills together. The first word is the thing the skill works on; each later word narrows it.
+
+```
+candidate-assessment
+candidate-outreach
+domain-engineering-hardware
+domain-engineering-software
+role-requirements
+```
+
+- **Core skills** (`role-*`, `candidate-*`): `<object>-<task>`. They are role-neutral and work for any job.
+- **Domain skills** (`domain-<field>-<area>`): hold the role-specific knowledge a core skill needs for one field, such as typical must-haves, how adjacent experience transfers, and inflation signals. A core skill loads a matching domain skill when one exists and still works without it.
+- Keep domain names at two levels. Add a third (`domain-engineering-hardware-sensors`) only when one domain skill grows too large to stay tight.
+- Lowercase and hyphens only, at most 64 characters, and the name matches the folder.
+- Choose names to last. Renaming a published skill breaks everyone who points at it.
+
 ## Hard rules
 
 - Human in the loop: assistive drafts only; never hire/reject/"screen for you"

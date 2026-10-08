@@ -8,7 +8,7 @@ Skills **augment recruiters**. They do not hire, reject, or screen "for you." Sc
 
 | Section | Required content |
 |---------|------------------|
-| Frontmatter | `name` (matches folder) and `description` |
+| Frontmatter | `name` (matches folder, follows the naming convention in `README.md`) and `description` |
 | Title + when to use | 1-2 lines: skill id and the trigger situation |
 | Purpose | Why this skill exists; assistive framing explicit |
 | Inputs | Concrete artifacts the operator must have |
