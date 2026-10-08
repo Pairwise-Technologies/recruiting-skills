@@ -21,6 +21,7 @@ Convention inspired by [mattpocock/skills](https://github.com/mattpocock/skills)
 ## Skills
 
 - [`role-assessment`](skills/role-assessment/SKILL.md): Break a role into a weighted requirements profile (seven axes, knockouts, screen questions) before judging candidates.
+- [`candidate-assessment`](skills/candidate-assessment/SKILL.md): Assess one candidate against a role-assessment profile, axis by axis, with evidence-backed reads and an interview / knockout screen / pass / do-not-contact verdict.
 
 ## Hard rules
 
