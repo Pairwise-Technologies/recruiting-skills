@@ -31,6 +31,7 @@ Apply the role's weighted profile to one candidate so the read is consistent, ci
 - **Verdict:** interview, knockout screen, pass, or do-not-contact, with a one-line reason.
 - **Verification questions:** one per Unverified item, phrased so the answer is concrete.
 - Optional **summary** (phase 3) for a single candidate.
+- When the verdict is interview or knockout screen, hand off to the `outreach` skill to draft contact copy for human review.
 
 ## Read scale
 
@@ -55,7 +56,7 @@ Apply the role's weighted profile to one candidate so the read is consistent, ci
 
 ## Worked synthetic example
 
-**Candidate (synthetic):** Sam Okafor, Senior Staff Field Applications Engineer at Brightmoor Sensors (fictional MEMS supplier), about 20 years of experience, based in another state. **Role:** the Northwind Devices sensor characterization contract from the role-assessment example.
+**Candidate (synthetic):** Sam Okafor, Principal FAE at Brightmoor Sensors (fictional MEMS supplier), about 15 years of experience, based in another state. **Role:** the Northwind Devices sensor characterization contract from the role-assessment example.
 
 Eligibility: not a Northwind employee, no prior engagement, authorized to work. Clear; continue. Rows follow the profile's axes, split where the evidence differs (hands-on depth becomes reporting, bring-up and characterization).
 
@@ -64,10 +65,10 @@ Eligibility: not a Northwind employee, no prior engagement, authorized to work. 
 | Domain | Consumer IMUs and pressure sensors for the supplier's largest customers (claimed, profile) | Ideal |
 | Reporting | Delivered characterization and qualification reports with product, reliability and packaging teams (claimed) | Strong; may have compiled reports rather than generated the data |
 | Device bring-up | Schematic and layout reviews, board bring-up, field-return failure analysis (claimed) | Strong |
-| Integration knowledge | App notes on PCB design and part handling in production (verified, published) | Strong and rare: board stress and assembly effects |
+| Integration knowledge | Wrote internal customer design guides on board layout and part handling (verified, internal) | Strong and rare: board stress and assembly effects |
 | Hands-on characterization | Field role: supports customers, coordinates product engineering (claimed, title) | Unverified: owner or coordinator? |
 | Scripting (MATLAB/Python) | Not mentioned anywhere; hardware-design heavy (profile silent) | Gap |
-| Level and comp fit | Senior Staff, likely paid above the role's ceiling with a large bonus; relocation needed; the seat has no equity (inferred from level and location) | Major risk |
+| Level and comp fit | Principal, likely paid above the role's ceiling with a large bonus; relocation needed; the seat has no equity (inferred from level and location) | Major risk |
 
 **Verdict:** knockout screen. Domain and integration knowledge are rare, but ownership is unverified and level fit is a major risk. Ask comp expectations early.
 
@@ -93,4 +94,4 @@ Eligibility: not a Northwind employee, no prior engagement, authorized to work. 
 
 ## Provenance
 
-Operator-vetted: a recruiting operator's own candidate-read method (eligibility first, evidence per axis, owner vs coordinator, level and comp fit), used on live hardware engineering loops, with the example fictionalized from a real field-applications read; QUALITY_BAR; not a bulk AI pack.
+Operator-vetted: a recruiting operator's own candidate-read method (eligibility first, evidence per axis, owner vs coordinator, level and comp fit), used on live hardware engineering loops; the worked example is a synthetic example; QUALITY_BAR; not a bulk AI pack.
