@@ -18,6 +18,10 @@ Each skill is one folder with one `SKILL.md`: YAML frontmatter (`name`, `descrip
 
 Convention inspired by [mattpocock/skills](https://github.com/mattpocock/skills) (layout only).
 
+## Skills
+
+- [`role-assessment`](skills/role-assessment/SKILL.md): Break a role into a weighted requirements profile (seven axes, knockouts, screen questions) before judging candidates.
+
 ## Hard rules
 
 - Human in the loop: assistive drafts only; never hire/reject/"screen for you"
