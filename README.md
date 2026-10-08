@@ -20,21 +20,17 @@ Convention inspired by [mattpocock/skills](https://github.com/mattpocock/skills)
 
 ## Naming
 
-Skill names run from least specific to most specific, so a sorted list groups related skills together. The first word is the thing the skill works on; each later word narrows it.
+Skill names run from least specific to most specific, so a sorted list groups related skills together. The full rule, which applies to any skill we write, is in [`docs/SKILL_NAMING.md`](docs/SKILL_NAMING.md). In this repo:
 
 ```
 candidate-assessment
 candidate-outreach
 domain-engineering-hardware
-domain-engineering-software
 role-requirements
 ```
 
-- **Core skills** (`role-*`, `candidate-*`): `<object>-<task>`. They are role-neutral and work for any job.
-- **Domain skills** (`domain-<field>-<area>`): hold the role-specific knowledge a core skill needs for one field, such as typical must-haves, how adjacent experience transfers, and inflation signals. A core skill loads a matching domain skill when one exists and still works without it.
-- Keep domain names at two levels. Add a third (`domain-engineering-hardware-sensors`) only when one domain skill grows too large to stay tight.
-- Lowercase and hyphens only, at most 64 characters, and the name matches the folder.
-- Choose names to last. Renaming a published skill breaks everyone who points at it.
+- **Core skills** (`role-*`, `candidate-*`) are `<subject>-<task>` and role-neutral.
+- **Domain skills** (`domain-<field>-<area>`) hold field-specific knowledge a core skill loads when one matches.
 
 ## Skills
 
@@ -51,6 +47,7 @@ role-requirements
 ## Docs
 
 - [`docs/QUALITY_BAR.md`](docs/QUALITY_BAR.md): what a skill must contain before it lands here
+- [`docs/SKILL_NAMING.md`](docs/SKILL_NAMING.md): how skills are named
 - [`docs/SOURCES.md`](docs/SOURCES.md): books and concepts the skills draw on
 
 ## Adding a skill
