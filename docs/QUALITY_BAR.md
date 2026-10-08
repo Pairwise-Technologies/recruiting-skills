@@ -36,7 +36,7 @@ Target length: roughly 60-120 lines. Tight but real.
 - **Employment model is an input.** Do not hard-code agency, contract, direct-hire, or in-house framing. Rules that come from a client agreement (cooldowns, tenure caps, non-solicits) are inputs, not laws.
 - **Works with sparse input.** Run on whatever the operator has, from one paragraph to a full file. State confidence and what extra input would change the result. Do not refuse for missing data.
 - **Guidelines, not formulas.** No numeric scores or weights that sum to a number. Use tiers and plain rules a human can check.
-- **Not an interview guide.** Assessment skills may list what is still open, but do not script interviews.
+- **No embedded interview scripts.** Assessment skills (`role-requirements`, `candidate-assessment`) may list what is still open, but should not script interviews. If we add an interview guide later, it should be its own skill, not folded into these.
 
 ## Landing bar
 
