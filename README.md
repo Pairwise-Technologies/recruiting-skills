@@ -61,4 +61,13 @@ role-requirements
 
 ## License
 
-[MIT](LICENSE)
+Copyright (c) 2026 Pairwise. Licensed under [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](LICENSE).
+
+You may use, share and adapt these skills, including at work and for commercial purposes, if you:
+
+- **Credit Pairwise:** `recruiting-skills by Pairwise (https://github.com/Pairwise-Technologies/recruiting-skills), CC BY-SA 4.0`, and say if you changed anything.
+- **Share alike:** release adapted versions under CC BY-SA 4.0 (or a compatible license), so they stay open.
+
+Contributions to this repo are accepted under the same license.
+
+**Trademarks:** the license covers the content only. It grants no rights to the Pairwise name or logo. Do not use them to suggest that a copy or adaptation comes from, or is endorsed by, Pairwise.
