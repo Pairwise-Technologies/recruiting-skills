@@ -28,7 +28,7 @@ Keep field knowledge out of the role-neutral core skills. This skill adds what a
 
 ## When defining the role
 
-- **Domain transfer.** Physics transfers within a device family more than across families. Any moving-mass MEMS part (accelerometer, gyroscope, pressure) transfers to another; optical or thermal sensing transfers less. Precision motion work (stages, actuators) often transfers to inertial sensing, because both deal with displacement noise and vibration.
+- **Domain transfer.** Physics transfers within a device family more than across families. Any MEMS part with a moving structure (accelerometer, gyroscope, pressure diaphragm) transfers to another; optical or thermal sensing transfers less. Precision motion work (stages, actuators) often transfers to inertial sensing, because both deal with displacement noise and vibration.
 - **Ownership depth.** Name the level per outcome: owner (wrote the test plan, built or ran the setup, analyzed the data, wrote the report), coordinator (compiled results, managed a test house or vendor), simulation-only. Most bench roles need owner level on the core measurement.
 - **Skills.** Separate doing from vocabulary. Instrument automation and analysis scripting are skills; knowing a method's name (for example, a noise-analysis term) is not. Equipment by name (rate tables, thermal chambers, probe stations) is resume-observable; running it alone is screen-only.
 - **Background.** Device makers and component suppliers work at consumer volume and pace; aerospace and navigation-grade work is slower and deeper. Weight this below direct evidence.
@@ -52,9 +52,9 @@ Keep field knowledge out of the role-neutral core skills. This skill adds what a
 
 ## Worked synthetic example
 
-**Role (synthetic):** sensor characterization engineer at Northwind Devices (fictional wearables maker). Applied to role-requirements: domain must-have is hands-on moving-mass MEMS, any type (transfer rule); ownership depth is Critical at owner level for test plan, data and report (screen); a noise-method name is not required; the education bar is a Master's with bench work.
+**Role (synthetic):** sensor characterization engineer at Northwind Devices (fictional wearables maker). Applied to role-requirements: domain must-have is hands-on MEMS parts with a moving structure (accelerometer, gyroscope, pressure diaphragm), any type (transfer rule); ownership depth is Critical at owner level for test plan, data and report (screen); a noise-method name is not required; the education bar is a Master's with bench work.
 
-**Candidate (synthetic):** Sam Okafor, Principal Field Applications Engineer at Brightmoor Sensors (fictional supplier). Applied to candidate-assessment: domain is Strong, not Ideal, because the consumer IMU work is claimed on the profile only; hands-on characterization is Unverified, because a field title defaults there; internal design guides on board layout are verified and rare. Trajectory: customer-facing for years, so recent bench time is in doubt. Verdict from the core skill: screen first.
+**Candidate (synthetic):** Sam Okafor, Principal Field Applications Engineer at Brightmoor Sensors (fictional supplier). Applied to candidate-assessment: domain is Strong, not Ideal, because the consumer IMU work is claimed on the profile only; hands-on characterization is Unverified, because a field title defaults there; internal design guides on board layout are claimed and rare; a screen should confirm them. Trajectory: customer-facing for years, so recent bench time is in doubt. Verdict from the core skill: screen first.
 
 ## Failure modes / edge cases
 
