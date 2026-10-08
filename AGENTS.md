@@ -11,6 +11,8 @@ description: "<one line: what it does and when to use it>"
 ---
 ```
 
+Name skills from least specific to most specific: subject first, task last, org qualifier at the end, field knowledge in `domain-<field>-<area>` skills. Downloaded skills keep their upstream names. See `docs/SKILL_NAMING.md`.
+
 Before adding a skill:
 
 - Pass every row in `docs/QUALITY_BAR.md`

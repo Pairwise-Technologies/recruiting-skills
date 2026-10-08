@@ -6,7 +6,7 @@ This repo starts nearly empty on purpose. v0 ships the layout convention and the
 
 Skills **augment** recruiters. They do not hire, reject, or screen "for you." Anything that looks like a score, rank, or flag is an assistive draft for human review. Outreach is drafted for a human to send; never auto-sent.
 
-This repo is **not** locked to any one ATS or recruiting product. Playbooks should work on a LinkedIn / generic ATS hiring pipeline. Platform-specific MCP tooling lives in a separate repo.
+This repo is **not** locked to any one ATS, recruiting product, or employment model (agency, contract, in-house). Playbooks should work on a LinkedIn / generic ATS hiring pipeline. Platform-specific MCP tooling lives in a separate repo.
 
 ## Layout
 
@@ -17,6 +17,27 @@ skills/<skill-name>/SKILL.md
 Each skill is one folder with one `SKILL.md`: YAML frontmatter (`name`, `description`) followed by a markdown body. Same tree works in Cursor and Claude Agent Skills environments. Point your agent at `skills/`, or copy the folders you want into your own skills directory.
 
 Convention inspired by [mattpocock/skills](https://github.com/mattpocock/skills) (layout only).
+
+## Naming
+
+Skill names run from least specific to most specific, so a sorted list groups related skills together. The full rule, which applies to any skill we write, is in [`docs/SKILL_NAMING.md`](docs/SKILL_NAMING.md). In this repo:
+
+```
+candidate-assessment
+candidate-outreach
+domain-engineering-hardware
+role-requirements
+```
+
+- **Core skills** (`role-*`, `candidate-*`) are `<subject>-<task>` and role-neutral.
+- **Domain skills** (`domain-<field>-<area>`) hold field-specific knowledge a core skill loads when one matches.
+
+## Skills
+
+- [`candidate-assessment`](skills/candidate-assessment/SKILL.md): Read one candidate against a role-requirements profile from any amount of evidence: per-axis reads, an authenticity call, and a verdict with its confidence.
+- [`candidate-outreach`](skills/candidate-outreach/SKILL.md): Draft one cold outreach (initial + follow-up) for one candidate, for a human to review and send, or decide not to contact them.
+- [`domain-engineering-hardware`](skills/domain-engineering-hardware/SKILL.md): Field knowledge for hardware engineering searches: transfer rules, ownership cues and inflation signals. Loads with the core skills.
+- [`role-requirements`](skills/role-requirements/SKILL.md): Break a role into mission, outcomes and a tiered requirements profile, with knockouts and open questions, before reading candidates.
 
 ## Hard rules
 
@@ -29,6 +50,8 @@ Convention inspired by [mattpocock/skills](https://github.com/mattpocock/skills)
 ## Docs
 
 - [`docs/QUALITY_BAR.md`](docs/QUALITY_BAR.md): what a skill must contain before it lands here
+- [`docs/SKILL_NAMING.md`](docs/SKILL_NAMING.md): how skills are named
+- [`docs/SOURCES.md`](docs/SOURCES.md): books and concepts the skills draw on
 
 ## Adding a skill
 
