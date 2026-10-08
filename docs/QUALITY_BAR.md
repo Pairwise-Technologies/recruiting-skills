@@ -8,7 +8,7 @@ Skills **augment recruiters**. They do not hire, reject, or screen "for you." Sc
 
 | Section | Required content |
 |---------|------------------|
-| Frontmatter | `name` (matches folder, follows the naming convention in `README.md`) and `description` |
+| Frontmatter | `name` (matches folder, follows `docs/SKILL_NAMING.md`) and `description` |
 | Title + when to use | 1-2 lines: skill id and the trigger situation |
 | Purpose | Why this skill exists; assistive framing explicit |
 | Inputs | Concrete artifacts the operator must have |
@@ -32,7 +32,7 @@ Target length: roughly 60-120 lines. Tight but real.
 
 ## Design rules
 
-- **Role-neutral core.** Core skills (`role-*`, `candidate-*`) work for any job. Field-specific knowledge goes in a `domain-*` skill (see `README.md#naming`).
+- **Role-neutral core.** Core skills (`role-*`, `candidate-*`) work for any job. Field-specific knowledge goes in a `domain-*` skill (see `docs/SKILL_NAMING.md`).
 - **Employment model is an input.** Do not hard-code agency, contract, direct-hire, or in-house framing. Rules that come from a client agreement (cooldowns, tenure caps, non-solicits) are inputs, not laws.
 - **Works with sparse input.** Run on whatever the operator has, from one paragraph to a full file. State confidence and what extra input would change the result. Do not refuse for missing data.
 - **Guidelines, not formulas.** No numeric scores or weights that sum to a number. Use tiers and plain rules a human can check.
