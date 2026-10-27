@@ -25,7 +25,7 @@ Find where the process gave a slow or wrong signal, and turn that into a few sma
 Use whatever exists. Mark what is missing; never fill a gap with a guess presented as fact.
 
 - **Requirements:** the job description, intake notes, a role-requirements profile, and every later revision with its date.
-- **Outcome anchor:** who was hired or said yes to, and why. For a search with no hire: the strongest finalist and why they left the process. With a single interview result: that interview's decision.
+- **Outcome anchor:** who was hired or said yes to, and why. For a search with no hire: the strongest finalist and why they left the process. With a single interview result: that interview's decision. If no acceptance is recorded, infer the outcome from context (latest stage, notes, the search closing) and mark it inferred.
 - **Interview results:** scorecards, screen notes, debrief notes, written rejection reasons.
 - **Candidate list:** source, stage reached and exit reason per candidate (team rejected, candidate declined, withdrew, no reply).
 - **Dates:** search opened, requirements agreed or changed, each candidate's entry and stage moves, interviews, feedback recorded, offer, acceptance.
@@ -47,7 +47,7 @@ Name the tier at the top of the report. Every finding carries a confidence: **hi
 
 Tier B: skip whichever of steps 2, 5 and 6 have no records. Tier C: skip steps 2, 5 and 6; run step 3 (Tier C tags only) and step 4 (single-interview path only).
 
-1. **Scope.** State what ended, the outcome anchor, the tier, and the one question the team most wants answered, if stated; otherwise use: what most delayed reaching the outcome anchor?
+1. **Scope.** State what ended, the outcome anchor and how they entered (through the interview plan, or around it, such as a referral or a prior working relationship), the tier, and the one question the team most wants answered, if stated; otherwise use: what most delayed reaching the outcome anchor?
 2. **Rebuild the timeline.** List dated events as days from search open (Day 0): requirements agreed, each revision, first candidate shown, first candidate the team advanced, hire entered pipeline, interviews, feedback, offer, acceptance. Prefer written records over memory, and mark inferred dates.
 3. **Requirements against the outcome.** Put the requirements (or a reconstructed profile built with role-requirements, marked reconstructed) beside the hire and the interviewed set. Tag each requirement:
    - **Held:** the hire met it, and it separated advanced candidates from rejected ones.
@@ -57,7 +57,7 @@ Tier B: skip whichever of steps 2, 5 and 6 have no records. Tier C: skip steps 2
    - **Misweighted:** the right idea at the wrong tier (required vs preferred, or whatever tiers the profile uses).
    Then check two lists. Underrated: candidates the team liked who fit the written requirements poorly. Overrated: candidates who fit on paper and were rejected, especially several for the same reason. Name the requirement behind each. Use existing reads; do not re-assess candidates.
 4. **Interview signal.** For each stage with results: did it record evidence tied to a requirement, or only an impression? Did a yes at this stage predict the final decision? Look for repeated checks of the same thing, knockouts found late that an earlier step could have caught, missing or late feedback, and disagreements settled by time pressure. With one interview result, name the requirement the decision turned on, whether the profile had it, and whether a resume or screen could have shown it earlier.
-5. **Funnel.** Count candidates per stage and compute pass-through only on candidates who finished a stage; leave active ones out. Under about 20 candidates, lead with patterns, not percentages. Group exit reasons. A pass rate near 0% or 100% is a flag: check whether the stage, the candidate pool or the requirement is the cause. Compare where volume came from with where the hire came from.
+5. **Funnel.** Count candidates per stage and compute pass-through only on candidates who finished a stage; leave active ones out. Once the search has closed, candidates still active form their own exit group, not closed out. Under about 20 candidates, lead with patterns, not percentages. Group exit reasons. A pass rate near 0% or 100% is a flag: check whether the stage, the candidate pool or the requirement is the cause. Compare where volume came from with where the hire came from.
 6. **Timeline.** Compute what the dates allow: time to agreed requirements, time to first candidate shown, time to first good candidate (the first one the team advanced past screen), time to hire (hire entered pipeline to acceptance), time to fill (search open to acceptance), and feedback lag per stage. Find the longest wait that was not the candidate's choice. If the hire entered late, assess, as a low-confidence hypothesis, whether the final requirements written on Day 0 would have surfaced the hire sooner.
 7. **Suggestions, at most 3.** Each one is a single concrete change: a requirement edit with its tier, an intake or interview step, or a timing rule. Tie it to finding numbers, give its confidence, and say how the next search will show it worked. Prefer the requirement edit that explains the most rejections and the fix for the longest wait. Add one or two lines on what worked, so the team keeps it.
 8. **Blameless pass and hand-off.** Rewrite any line that faults a person so it names the step or the missing record instead. Requirement edits feed role-requirements for the next similar search; do not edit a live profile from this skill.
@@ -102,6 +102,7 @@ Tier B: skip whichever of steps 2, 5 and 6 have no records. Tier C: skip steps 2
 - Reading a search with no hire as a sourcing failure when the requirements kept moving.
 - Calling a late hire bad luck before checking when the requirements caught up with what the team wanted.
 - Blaming selection for a problem that started at intake, or that came from a business change mid-search.
+- Reading a hire who came in around the interview plan as proof the requirements worked or failed; the requirement findings then describe the pipeline, not the hire.
 - Turning the hire's traits into requirements: name the work that separated candidates, not who the hire is or where they came from.
 
 ## Forever don'ts
