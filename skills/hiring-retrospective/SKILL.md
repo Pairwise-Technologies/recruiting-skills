@@ -1,15 +1,13 @@
 ---
 name: hiring-retrospective
 description: >-
-  Run a blameless retrospective on a finished, stalled or partly finished
-  search: compare how the requirements were written with who was hired, who
-  was interviewed and how the interviews went, then read the funnel and the
-  timeline. Returns a short report and at most 3 evidence-backed suggestions
-  to reach the right candidate faster next time. Use when a search closes,
-  is cancelled or reset, or when a team asks why a search took so long.
-  Works from a full pipeline down to only a job description and the hire, or
-  a single interview result. Not for judging one candidate or a hire's
-  performance.
+  Run a blameless retrospective on a finished, stalled or reset search:
+  compare the written requirements with who was hired and who was
+  interviewed, then read interview signal, the funnel and the timeline.
+  Returns a short report and at most 3 evidence-backed changes for the next
+  similar search. Use when a search closes, is cancelled or reset, or a team
+  asks why it took so long. Works from a full pipeline down to a job
+  description and the hire. Not for reading one candidate or rating a hire.
 ---
 
 # hiring-retrospective
@@ -29,7 +27,7 @@ Use whatever exists. Mark what is missing; never fill a gap with a guess present
 - **Requirements:** the job description, intake notes, a role-requirements profile, and every later revision with its date.
 - **Outcome anchor:** who was hired or said yes to, and why. For a search with no hire: the strongest finalist and why they left the process. With a single interview result: that interview's decision.
 - **Interview results:** scorecards, screen notes, debrief notes, written rejection reasons.
-- **Candidate list:** stage reached and exit reason per candidate (team rejected, candidate declined, withdrew, no reply).
+- **Candidate list:** source, stage reached and exit reason per candidate (team rejected, candidate declined, withdrew, no reply).
 - **Dates:** search opened, requirements agreed or changed, each candidate's entry and stage moves, interviews, feedback recorded, offer, acceptance.
 - Optional: a 90-day signal (did the hire reach the first outcomes?), used only to test whether the requirements predicted the outcome, not to rate the hire.
 
@@ -57,7 +55,6 @@ Tier B: skip whichever of steps 2, 5 and 6 have no records. Tier C: skip steps 2
    - **Missing:** a reason that decided outcomes in debriefs or rejections, but no requirement named it.
    - **Drifted:** it changed during the search. Note when, why, and whether the change was written down.
    - **Misweighted:** the right idea at the wrong tier (required vs preferred, or whatever tiers the profile uses).
-   Tier C: low confidence only. With a hire, Did not matter and Missing. With a single interview result, Missing only.
    Then check two lists. Underrated: candidates the team liked who fit the written requirements poorly. Overrated: candidates who fit on paper and were rejected, especially several for the same reason. Name the requirement behind each. Use existing reads; do not re-assess candidates.
 4. **Interview signal.** For each stage with results: did it record evidence tied to a requirement, or only an impression? Did a yes at this stage predict the final decision? Look for repeated checks of the same thing, knockouts found late that an earlier step could have caught, missing or late feedback, and disagreements settled by time pressure. With one interview result, name the requirement the decision turned on, whether the profile had it, and whether a resume or screen could have shown it earlier.
 5. **Funnel.** Count candidates per stage and compute pass-through only on candidates who finished a stage; leave active ones out. Under about 20 candidates, lead with patterns, not percentages. Group exit reasons. A pass rate near 0% or 100% is a flag: check whether the stage, the candidate pool or the requirement is the cause. Compare where volume came from with where the hire came from.
@@ -65,7 +62,7 @@ Tier B: skip whichever of steps 2, 5 and 6 have no records. Tier C: skip steps 2
 7. **Suggestions, at most 3.** Each one is a single concrete change: a requirement edit with its tier, an intake or interview step, or a timing rule. Tie it to finding numbers, give its confidence, and say how the next search will show it worked. Prefer the requirement edit that explains the most rejections and the fix for the longest wait. Add one or two lines on what worked, so the team keeps it.
 8. **Blameless pass and hand-off.** Rewrite any line that faults a person so it names the step or the missing record instead. Requirement edits feed role-requirements for the next similar search; do not edit a live profile from this skill.
 
-## Output
+## Outputs
 
 1. **Header:** outcome, tier, records used, records missing.
 2. **Timeline:** one table of Day N events, if any dates exist.
@@ -76,27 +73,27 @@ Tier B: skip whichever of steps 2, 5 and 6 have no records. Tier C: skip steps 2
 
 ## Worked synthetic example
 
-**Search (synthetic):** Battery Test Engineer at Example Battery Co. (fictional). Tier B: candidate list with stages and dates, interview notes for the final four, no post-hire data. Requirements: 5+ years; cell design experience (required); Python test automation (preferred).
+**Search (synthetic):** Mid-market Account Executive at Fernvale (fictional), run from the posting before a role-requirements profile existed. Tier B: candidate list with sources, stages and dates, interview notes for the final four, no post-hire data. Requirements: 5+ years enterprise sales (required); sold payroll software (required); sources own pipeline (preferred).
 
-**Timeline:** Day 0 search opens. Day 21 first candidate shown. Day 30 hiring manager says "we want bench testers, not designers" in a call; the profile is not updated. Day 44 hire (C7) enters. Day 58 team interview. Day 66 feedback recorded. Day 75 offer accepted.
+**Timeline:** Day 0 search opens. Day 18 first candidate shown. Day 27 hiring manager says "we want mid-market closers, not enterprise team sellers" in a call; the requirements are not updated. Day 41 hire (C7) enters. Day 55 final panel. Day 63 feedback recorded. Day 72 offer accepted.
 
 **Findings:**
-1. Drifted, high: the Day 30 shift to bench testing was never written into the requirements, and sourcing kept matching design profiles for two more weeks (call note plus the next six candidates shown).
-2. Did not matter, medium: C7 had no cell design work and was hired. Two of three team-interview rejections read "designer, not hands-on."
-3. Missing, medium: hands-on bench work decided every final-round outcome, but no requirement named it.
-4. Misweighted, low: Python test automation was preferred, yet it was the strongest line in C7's debrief. A low-cost hypothesis: make it required next search and see whether it separates finalists.
-5. Timeline, medium: 8 days of feedback lag after the team interview was the longest wait not caused by a candidate.
+1. Drifted, high: the Day 27 shift to mid-market closers was never written into the requirements, and sourcing kept matching enterprise profiles for two more weeks (call note plus the next six candidates shown).
+2. Did not matter, medium: C7 had 3 years, all mid-market, and was hired. Two of three panel rejections read "enterprise, never closed alone."
+3. Missing, medium: closing full-cycle deals as the named seller decided every final-round outcome, but no requirement named it.
+4. Misweighted, low: payroll software was required, yet C7 sold HR software and the debrief never raised it. A low-cost hypothesis: require selling to finance or HR buyers, with payroll preferred, and see whether finalists still separate.
+5. Timeline, medium: 8 days of feedback lag after the final panel was the longest wait not caused by a candidate.
 
 **Suggestions:**
-1. Replace "cell design experience (required)" with "hands-on cell or pack testing at the bench (required)". Evidence: 1 to 3. Confidence: medium. Check: next search, most team-interview rejections cite a written requirement.
-2. When the hiring manager changes the bar, update the written requirements the same day. Evidence: 1. Confidence: high. Check: no gap between a stated change and the profile.
+1. Replace "5+ years enterprise sales (required)" with "closed full-cycle mid-market deals as the named seller (required)". Evidence: 1 to 3. Confidence: medium. Check: next search, most panel rejections cite a written requirement.
+2. When the hiring manager changes the bar, update the written requirements the same day. Evidence: 1. Confidence: high. Check: no gap between a stated change and the requirements.
 3. Agree a 2-business-day feedback rule at intake. Evidence: 5. Confidence: medium. Check: feedback lag per stage in the next retro.
 
-**Keep:** the team interview gave specific, requirement-level reasons.
+**Keep:** the final panel gave specific, requirement-level reasons.
 
 **To learn more next time:** a 90-day check against the first outcomes.
 
-**Tier C variant:** with only the job description and C7's resume, the retro reports one finding: C7 had no cell design work and was hired (did not matter, low). To learn more next time: the final-round rejection reasons and dates, which would show whether cell design separated candidates and when the bar moved.
+**Tier C variant:** with only the posting and C7's resume, the retro reports one finding: C7 had 3 years of mid-market sales against a 5+ years enterprise requirement and was hired (did not matter, low). To learn more next time: the final-round rejection reasons and dates, which would show whether enterprise tenure separated candidates and when the bar moved.
 
 ## Failure modes / edge cases
 
@@ -105,6 +102,7 @@ Tier B: skip whichever of steps 2, 5 and 6 have no records. Tier C: skip steps 2
 - Reading a search with no hire as a sourcing failure when the requirements kept moving.
 - Calling a late hire bad luck before checking when the requirements caught up with what the team wanted.
 - Blaming selection for a problem that started at intake, or that came from a business change mid-search.
+- Turning the hire's traits into requirements: name the work that separated candidates, not who the hire is or where they came from.
 
 ## Forever don'ts
 
@@ -117,4 +115,4 @@ Tier B: skip whichever of steps 2, 5 and 6 have no records. Tier C: skip steps 2
 
 ## Provenance
 
-Adapted from blameless postmortem practice (Google SRE book; Etsy Debriefing Facilitation Guide) and a coding-session retro skill (retro in mattpocock/skills: every finding traced to a record, proposals only). Funnel and time definitions follow published ATS documentation and SHRM. Composes with role-requirements and candidate-assessment.
+Adapted from blameless postmortem practice (Google SRE book), rewritten for hiring searches; funnel and time metrics use standard ATS definitions; QUALITY_BAR; not a bulk AI pack.
