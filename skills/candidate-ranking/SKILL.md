@@ -7,7 +7,7 @@ description: >-
   confidence for every rank. Use when a recruiter asks "who are the best ones
   to send?", wants a shared pack ordered, or needs a top 3-5 from a longer
   list. Works for any role and employment model. Not for reading one
-  candidate in depth (use candidate-assessment) or deciding who to contact.
+  candidate in depth (use candidate-assessment) or outreach (use candidate-outreach).
 ---
 
 # candidate-ranking
@@ -59,8 +59,7 @@ Turn per-candidate reads into an ordered slate the hiring manager will want to a
 
 ## Per-candidate format
 
-`rank N: <name>` (confidence: high / medium / low)
-- **Confidence:** high = every ranking fact verified; medium = one or more inferred but fit verified; low = fit itself inferred.
+`rank N: <name>` (confidence: high = every ranking fact verified; medium = one or more inferred but fit verified; low = fit itself inferred)
 - **Why:** one line on fit, then quality.
 - **Vetted:** yes, partial or no, with the evidence (date, which role, how it went).
 - **Location:** metro, and commute or relocation stance.
@@ -77,27 +76,28 @@ Turn per-candidate reads into an ordered slate the hiring manager will want to a
 ## Measuring
 
 - Per pack, track: top-3 hit rate (share of your top 3 the client advanced); rank agreement with the furthest stage each candidate reached (for example, Kendall tau); interview-to-offer and offer-accept by rank.
-- Map each client rejection reason to the factor or gate that should have caught it.
+- Map each client rejection reason to the factor or gate that should have caught it, and feed the snapshot and metrics into hiring-retrospective after the search closes.
 - Do not change this skill's order from one pack. Change it only after about 5 packs or 20 candidates point the same way. One-client lessons go in that client's calibration notes.
-- Feed the snapshot and metrics into hiring-retrospective after the search closes.
 
 ## Worked synthetic example
 
-**Role (synthetic):** Senior Enclosure Designer at Brightwater Robotics (fictional), on site in Austin, band $130-160K, preferred CAD tool a plus. Requirements v2, Nov 1. Six candidates.
+**Role (synthetic):** Senior Enclosure Designer at Brightwater Robotics (fictional), on site in Austin, band $130-160K (no hard cap stated), Critical must-have: mechanical enclosure design, preferred CAD tool a plus. Requirements v2, Nov 1. Six candidates.
 
-**Gate report:** Lee Park works at Brightwater now (non-solicit). Sam Ortiz was submitted to Brightwater last month by another agency (conflict).
+**Gate report:** Lee Park works at Brightwater now (non-solicit). Sam Ortiz was submitted to Brightwater last month by another agency (conflict). Raj Iyer's work is electrical, so he misses the Critical mechanical must-have.
 
 **rank 1: Priya Nair** (confidence: high)
 - **Why:** 6 years of sheet-metal and molded enclosures at a top device maker; strong engineering school.
 - **Vetted:** yes, screened for this role Oct 28, specific answers on tolerancing.
 - **Location:** Austin. **Risk:** asked $165K, just above band.
 
-**rank 2: Tom Reyes** (confidence: medium)
+**rank 2: Tom Reyes** (confidence: medium: employer scope is from his public profile, fit is verified)
 - **Why:** strong enclosure fit at two top-tier employers, uses the preferred tool.
 - **Vetted:** partial, screened in June for a different role.
 - **Location:** Dallas, willing to relocate. **Risk:** competing offer due next week.
 
-**Not recommended:** Ana Cole, enclosure work ended 2015, now a program manager (stale, drift). Raj Iyer, strong brand but electrical, misses the mechanical must-have.
+**Not recommended:** Ana Cole, enclosure work ended 2015, now a program manager (stale, drift).
+
+**Gaps:** Tom's only screen was for a different role; a fresh screen for this one could change the top 2.
 
 **Why Priya is above Tom:** both are strong on fit and quality, so vetting decides: a current screen beats a partial one. A shuffled rerun gave the same top 2.
 
