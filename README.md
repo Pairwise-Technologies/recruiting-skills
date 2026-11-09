@@ -32,6 +32,7 @@ hiring-retrospective
 interview-transcript-review
 role-job-description
 role-requirements
+role-requirements-tuning
 ```
 
 - **Core skills** (`role-*`, `candidate-*`) are `<subject>-<task>` and role-neutral.
@@ -48,6 +49,7 @@ role-requirements
 - [`interview-transcript-review`](skills/interview-transcript-review/SKILL.md): Read a screen or interview transcript against a role-requirements profile: what was demonstrated, what was only claimed, and what was never asked, as a structured debrief a human can check.
 - [`role-job-description`](skills/role-job-description/SKILL.md): Write a public job description from a confirmed role-requirements profile: mission and outcomes in plain language, required vs preferred clearly separated, and no gates the profile did not confirm.
 - [`role-requirements`](skills/role-requirements/SKILL.md): Break a role into mission, outcomes and a tiered requirements profile, with knockouts and open questions, before reading candidates.
+- [`role-requirements-tuning`](skills/role-requirements-tuning/SKILL.md): Fold confirmed hiring-team feedback into an existing role-requirements profile, with silence and vague impressions left out of the bar.
 
 ## Hard rules
 
