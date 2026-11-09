@@ -13,7 +13,7 @@ description: >-
 
 # candidate-ranking
 
-**When to use:** A recruiter has several candidates for one role and must pick and order the few to present, or order a slate already shared.
+**When to use:** A recruiter has several candidates for one role and must pick and order the few to present. For reviewing a slate already presented against new evidence, use candidate-shortlist-review instead.
 
 **When not to use:** Building the role profile (role-requirements); a deep read of one person (candidate-assessment); outreach (candidate-outreach).
 
