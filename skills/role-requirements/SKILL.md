@@ -14,7 +14,7 @@ description: >-
 
 **When to use:** A recruiter has a role (job description, intake notes, hiring-manager input) and needs to know what actually matters, and how much, before reading profiles.
 
-**When not to use:** Writing the public posting; reading a candidate (use candidate-assessment with this profile as input).
+**When not to use:** Writing the public posting (use role-job-description); reading a candidate (use candidate-assessment with this profile as input).
 
 ## Purpose
 
