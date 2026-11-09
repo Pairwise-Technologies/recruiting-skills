@@ -1,86 +1,94 @@
 ---
 name: interview-transcript-review
 description: >-
-  Read a screen or interview transcript against a role-requirements profile:
-  extract what was actually demonstrated, note what was never asked, and
-  produce a debrief a human can use. Use when a recruiter has a transcript or
-  detailed notes and needs a structured read before advancing, holding or
-  writing a shared summary. Works for any role. Not for writing an interview
-  guide, and not a substitute for a full candidate-assessment.
+  Extract the evidence from one screen or interview transcript against a
+  role-requirements profile: what the candidate showed, what they only
+  claimed, what was never asked, and how the interview itself was run. Use
+  when a recruiter has a transcript or detailed notes and needs a checked
+  debrief before candidate-assessment, a slate update or a shared summary.
+  Works for any role. Gives no verdict. Not for writing an interview guide.
 ---
 
 # interview-transcript-review
 
-**When to use:** A recruiter has a screen or interview transcript (or detailed notes) and wants a structured debrief against the role profile.
+**When to use:** A recruiter has a screen or interview transcript (or detailed notes) and wants the evidence pulled out and checked before anyone judges the candidate.
 
-**When not to use:** Writing an interview guide (a separate skill, if one exists); a full candidate read from resume and other sources (use candidate-assessment, with this debrief as an input); first-pass ranking of a list (use candidate-ranking).
+**When not to use:** Writing an interview guide; the verdict on a candidate (use candidate-assessment, with this debrief as an input); ordering a list (use candidate-ranking).
 
 ## Purpose
 
-Pull evidence out of what was said, separate demonstrated answers from claims and from topics that were never reached, and hand a human a debrief they can check. Assistive only: this does not advance, reject or notify anyone.
+One conversation is easy to over-read: a topic never reached becomes a "miss", a headline number becomes a fact, and a transcription error becomes a red flag. This skill separates what was shown from what was claimed or never asked, and checks the interview as well as the candidate. Assistive only: it gives no verdict and does not advance, reject or contact anyone.
 
 ## Inputs
 
-Use whatever exists. A partial transcript still gets a read, with confidence lowered.
+Use whatever exists. A partial transcript still gets a read, with lower confidence.
 
-- The transcript or detailed notes, including who was present and whether the conversation ended early.
+- The transcript or detailed notes: who was present, the length, and whether it ended early.
 - The **role-requirements profile**, especially must-haves tagged **screen**.
-- What the interview was meant to cover, if known (a question list or a stated goal).
-- Optional: the resume or prior candidate-assessment, so contradictions can be named; interviewer notes.
+- Optional: what the interview was meant to cover; the resume or a prior candidate-assessment read, so contradictions can be named; the interviewer's own notes.
 
 ## Outputs
 
-- **Evidence inventory:** by profile axis, a short quote or tight paraphrase, and whether it was demonstrated in the conversation, only claimed, or not asked.
-- **Completeness:** which screen-tagged must-haves were actually explored; what was skipped or refused.
-- **Debrief (internal):** one-paragraph read, confidence, and what would change it. Open items, at most 3, as things still to find out, not as a scripted next interview.
-- Optional **shareable summary:** a short note the decision maker may see, with no interviewer emails or other internal-only details unless the operator's process shares them.
-- A handoff into candidate-assessment, and into candidate-shortlist-review if the person is already on a presented slate.
+- **Coverage:** each screen-tagged must-have marked asked, partly asked or not asked.
+- **Evidence table:** per axis, a short quote or close paraphrase with its timestamp, and a basis: **verified** (walked through what they did, how and why, with specific detail), **claimed**, **inferred** or **no evidence**.
+- **Interview checks:** transcript problems, leading or off-limits questions, and interviewer opinions kept apart from evidence.
+- **Open items:** at most 3 things still to find out, not a script.
+- Optional **shareable summary** for the decision maker.
 
 ## Procedure
 
-1. **Inventory the conversation.** Note length, who spoke, and whether it ended early, was rescheduled, or the candidate declined questions. An incomplete interview is a fact, not a hidden fail.
-2. **Map to the profile.** List each screen-tagged must-have and whether it was asked. Do not treat an unasked axis as a miss.
-3. **Extract evidence.** For each axis that came up, capture a quote or tight paraphrase. Mark it demonstrated (they walked through work, decisions, results) or claimed (a number or title with no substance behind it). Compare with the resume where both exist, and list contradictions.
-4. **Read incomplete or refused interviews carefully.** If a must-have was never asked, write "no usable signal" for that axis. If the candidate refused to discuss work the interview needed, say so plainly as a process and cooperation issue for the human to weigh; do not invent a skills miss to stand in for it.
-5. **Do not over-read.** Tone, nervousness or a thin transcript are not evidence of skill or lack of it. Lower confidence instead of filling gaps.
-6. **Write two versions when a shared note is needed.** The internal debrief may name the interviewer and the gaps. The shareable summary carries only evidence and the work, and omits interviewer emails, private debate and anything the operator's process keeps internal.
-7. Hand off to candidate-assessment with this inventory. If the person is already presented, also flag candidate-shortlist-review. Stop; a human decides the next step.
+1. **Check that the transcript may be used.** The candidate must have been told about the recording, and about any AI analysis, as the operator's process and local rules require. If that is unknown, ask before going on.
+2. **Inventory the conversation.** Length, speakers, early end, reschedule, or questions the candidate declined. An incomplete interview is a fact, not a hidden fail.
+3. **Map coverage.** For each screen-tagged must-have, record whether it was asked. Not asked is no evidence, never a miss.
+4. **Extract evidence.** Quote briefly, with a timestamp, and tag the basis. A number with no baseline, or a title with no substance behind it, is claimed. Compare with the resume and list contradictions.
+5. **Check the transcript before any negative read.** Confirm each quote that hurts the candidate against the audio or the notes, and confirm the speaker label: a strong "answer" may be the interviewer talking. Speech-to-text drops and swaps words, more for some accents than others.
+6. **Check the interview, not only the candidate.** Note must-haves the interviewer skipped, leading questions that handed over the answer, and off-limits questions (age, family, health, religion, origin and similar). Flag off-limits questions for a human and leave the answers out of the evidence. Keep the interviewer's adjectives ("sharp", "low energy") as their opinion, apart from evidence.
+7. **Do not over-read.** Tone, nerves, accent, grammar, filler words and short answers are not evidence of skill. Never infer emotion, honesty or personality. Leave out protected details the candidate volunteered. Lower confidence instead of filling gaps.
+8. **Write the debrief:** coverage, evidence table, interview checks, confidence and open items. For a shareable summary, keep only evidence about the work: no interviewer opinions, internal debate, interview-check flags or protected details.
+9. **Protect independent judgment.** On a panel, do not share this debrief with interviewers who have not yet submitted their own feedback.
+10. **Hand off and stop.** candidate-assessment owns the verdict. If the person is already on a presented slate, flag candidate-slate-review.
 
 ## Worked synthetic example
 
-**Role (synthetic):** the Fernvale mid-market Account Executive profile from role-requirements (fictional). **Candidate (synthetic):** Dana Whitfield. **Source:** 28-minute screen transcript, 7 November. The interviewer covered territory and tools, then ran out of time before deal ownership. Dana said "I did 142% of quota last year" but did not name deal size, count or whether the number was personal. When asked how they run discovery with finance leads, they described a first-call agenda in concrete steps.
+**Inputs (synthetic):** Dana Whitfield, 28-minute screen on 7 November for the Fernvale mid-market AE profile (fictional). Candidate told about recording and AI notes at booking. Time ran out before deal ownership.
 
-**Completeness:** discovery (skills) was asked and answered with some detail. Closed deals as the named seller (Critical, screen) was not reached. Title disagreement on the resume vs profile was not asked.
+**Coverage:** discovery (skills) asked; quota attainment asked; closed deals as the named seller (Critical, screen) not asked.
 
 | Axis | Evidence | Basis |
 |---|---|---|
-| Skills / discovery | Walked through a first-call agenda with finance leads | Demonstrated |
-| Ownership depth | "142% of quota last year," no baseline or deal count | Claimed; not verified in the screen |
-| Ownership depth (closed alone) | Not asked; time ran out | No usable signal |
+| Skills: discovery | 12:40, walked through their first-call agenda with finance leads, step by step | Verified |
+| Ownership depth | 08:15, "I did 142% of quota last year", no quota size or deal count | Claimed |
+| Ownership depth: closed alone | Not asked; time ran out | No evidence |
+| Skills: forecasting | 16:05, transcript reads "I don't own the forecast"; the audio says "I do own the forecast" | Claimed (corrected) |
 
-**Internal debrief:** Promising on how they open a call; the Critical ownership question is still open, so confidence is low. This should not be treated as a fail on deal ownership. **Open items:** which deals they closed alone; quota size; when the title changed.
+**Interview checks:** at 21:30 the interviewer asked whether they have children "because of travel". Off-limits: flagged, answer excluded; the job-related question is whether the travel works for them. Interviewer note "seems sharp" kept as opinion.
 
-**Shareable summary (optional):** Screened on 7 November. Clear on discovery with finance buyers. Quota attainment was stated without a baseline, and deal ownership was not covered; that is still to confirm.
+**Confidence:** low on ownership depth, the Critical axis; medium on discovery.
 
-**Handoff:** candidate-assessment, verdict still "screen first" until ownership is verified. Not a shortlist withdraw on this transcript alone.
+**Open items:** which deals they closed alone; quota size; when their title changed.
+
+**Shareable summary:** Screened 7 November. Explained a concrete first-call process with finance buyers. Quota attainment stated without a baseline; deal ownership not yet covered.
+
+**Handoff:** candidate-assessment for the verdict; candidate-slate-review, because Dana is on the presented slate.
 
 ## Failure modes / edge cases
 
-- Treating "not asked" as "cannot do it."
-- Rewriting a claim as if it were demonstrated, especially a headline metric with no baseline.
-- Over-reading tone or short answers as a skills miss.
-- Putting interviewer emails or internal debate into a note the decision maker will see.
-- Using this debrief as a final reject without a candidate-assessment against the rest of the file.
+- Treating "not asked" as "cannot do it".
+- Rewriting a claim as verified, especially a headline metric with no baseline.
+- Acting on a transcription error or a mislabeled speaker.
+- Halo or first impression: one strong answer colors every axis. Read each axis on its own.
+- Comparing the candidate with the last interview instead of with the profile.
+- Opinions, flags or protected details leaking into the shareable summary.
 
 ## Forever don'ts
 
-- Never advance, reject, unshare or contact a candidate from this skill.
+- Never advance, reject or contact a candidate, or give a hire verdict, from this skill.
 - Never invent quotes, results or reasons for leaving.
-- Never script the next interview in this skill; list only what is still unknown.
-- Never leak interviewer emails or other internal-only fields into a shareable summary unless the operator's process says to.
+- Never infer emotion, honesty, personality or protected traits; never use accent, grammar or fluency as evidence unless the role requires that language skill.
+- Never script the next interview; list only what is still unknown.
 - No numeric scores or weights; no production scoring internals.
 - No real candidate or client names in shared examples.
 
 ## Provenance
 
-Operator-vetted: a recruiting operator's transcript-read method (completeness first, demonstrated vs claimed, no usable signal when a topic was not reached, shareable notes kept free of internal-only fields), used on live screens and generalized to any role; QUALITY_BAR; not a bulk AI pack.
+Operator-vetted: a recruiting operator's transcript-read method (coverage first, shown vs claimed, not asked is no evidence, shareable notes kept free of internal opinion), used on live screens and generalized to any role; interview-check and independent-judgment rules draw on `docs/SOURCES.md`; QUALITY_BAR; not a bulk AI pack.
