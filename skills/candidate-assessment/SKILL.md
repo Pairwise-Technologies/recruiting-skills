@@ -23,6 +23,7 @@ Apply the role's profile to one candidate so the read is consistent, cites evide
 
 - **Role profile** from role-requirements. If none exists, build a quick one with that skill first and mark it draft.
 - **Candidate evidence, any subset:** resume, LinkedIn profile, list of roles and companies, screen notes or transcript, work samples, a recruiter's paragraph. Nothing is required except some text about the person.
+- For a screen or interview transcript, run interview-transcript-review first for a structured debrief (demonstrated vs claimed, what was never asked), then feed that debrief in as evidence here.
 - Optional operator context: comp expectations, relocation stance, referral, prior conversations.
 - Optional: a matching `domain-<field>-*` skill for field-specific inflation signals and ownership cues.
 
