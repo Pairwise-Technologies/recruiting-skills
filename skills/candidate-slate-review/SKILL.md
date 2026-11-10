@@ -1,0 +1,87 @@
+---
+name: candidate-slate-review
+description: >-
+  Review a slate already presented to a decision maker (hiring manager,
+  client or panel) when anything changes: the candidate's interest, offers,
+  comp or notice, new screens, or a new gate. Recommends keep, watch or pull
+  submission for each person, and drafts why-fit notes and short updates for
+  a human to send. Use after a slate is shared, or when a recruiter asks
+  who should stay on it. Works for any role and employment model. Not for the
+  first ranking of a list (use candidate-ranking).
+---
+
+# candidate-slate-review
+
+**When to use:** A slate has been presented, and something has changed since: a screen, a candidate update, a dated risk coming due, or a new fact about eligibility.
+
+**When not to use:** First ordering of a longer list (candidate-ranking); changing the bar itself (role-requirements); outreach to new candidates (candidate-outreach).
+
+## Purpose
+
+Keep a presented slate honest over time. Most slates change because of the candidate (interest cools, an offer arrives, comp moves), not because of new evidence about skills. Recommend pulling a submission only on a confirmed reason, treat missing evidence as a watch, and keep everyone informed through drafts a human sends. Assistive only: a human decides every status change.
+
+## Inputs
+
+- The **presented slate** and the frozen send snapshot from candidate-ranking: order, reasons, named risks with dates, requirements version.
+- The **current role-requirements profile**. If feedback changed the bar, update it with role-requirements first.
+- **Candidate status:** last contact, interest, other processes and offer deadlines, comp or notice changes, logged contact attempts.
+- **New evidence:** interview-transcript-review debriefs, candidate-assessment reads, scorecards, resume updates.
+- **Engagement rules and consent:** what each candidate agreed may be shared, and any non-solicit, cooldown or prior-submission rules.
+
+## Outputs
+
+- **Per candidate:** keep, watch (with the one fact that would settle it) or pull submission, with one reason and a confidence (high, medium, low).
+- **Status log:** dated reason for each change, and who started any exit: candidate withdrew, submission pulled, or decision maker declined.
+- **Why-fit notes** for people who stay, when the decision maker will see them.
+- **Drafts for a human to send:** an update to the decision maker; a short note to each candidate whose status changed.
+- **Profile questions** that came up, handed to role-requirements.
+
+## Procedure
+
+1. **Confirm the bar.** Review against the current profile version. If it changed since the snapshot, say so. Never add a gate the profile does not have.
+2. **Candidate side first.** For each person: still interested, other offers and their deadlines, counteroffer risk, comp or notice changes. Re-check every named risk in the snapshot, dated ones first. A candidate who has not replied after the logged attempts your process sets is a watch ("confirm interest"), not a pull.
+3. **Representation.** Check that consent covers what you plan to share, and look for new conflicts (another submission, a direct application). Flag conflicts for a human; pull only when an engagement rule requires it.
+4. **Gates and Critical must-haves.** Re-apply candidate-ranking's gates. A confirmed knockout supports a pull. Unknown is not a miss.
+5. **New evidence.** Use the debrief or assessment, not the raw transcript. An interview that never reached a must-have is a watch. A confirmed miss on a Critical must-have supports a pull. A refusal to engage is a process issue for the human to weigh.
+6. **Same pass for everyone.** Every slate member gets the same checks. Never compare two people on an axis only one of them was assessed on. The slate's mix is never a reason for one person's status.
+7. **Recommend** keep, watch or pull, each with one reason and a confidence. No new comment from the decision maker is not a reason either way.
+8. **Why-fit notes** for keeps: 2-4 sentences on why this person fits, the strongest evidence, and what is still open. Share only what the candidate agreed to. Never protected details, salary history, interviewer opinions, internal debate or scores. If evidence is thin, say what is known and what is open.
+9. **Draft the updates,** 3 sentences or fewer each: what changed for the decision maker, with any deadline; a clear, kind note to any candidate whose status changed. Never send them.
+10. **Log the dated reasons and stop.** A human decides what changes.
+
+## Worked synthetic example
+
+**Slate (synthetic):** Fernvale mid-market AE, requirements v2 (fictional). Sent 4 November: Elena Sorensen, Kofi Mensah, Dana Whitfield; Jordan Ellis added 6 November as a backup. Review on 10 November.
+
+**Elena Sorensen: keep** (confidence: high). Still engaged; OTE ask unchanged at $160K, the named risk. She agreed to share her resume and comp ask. **Why-fit note:** Elena has closed mid-market HR software deals as the named seller for 3 years and grew her territory from 6 to 15 accounts. A 3 November screen confirmed three deals she closed alone. Open: her OTE ask is just above the band.
+
+**Kofi Mensah: watch** (confidence: medium). The snapshot's dated risk came due: his other offer expires 14 November, and he would wait for Fernvale only with an interview this week. **Next fact:** an interview date by 13 November.
+
+**Dana Whitfield: watch** (confidence: low). The 7 November screen confirmed discovery skills but never reached deal ownership, the Critical must-have. Not a pull. **Next fact:** which deals they closed alone.
+
+**Jordan Ellis: candidate withdrew** (accepted another offer, 9 November). No pull needed; log it.
+
+**Draft to the decision maker:** "Kofi has another offer due 14 November; an interview this week keeps him in play. Jordan accepted another role and is off the slate. Dana's ownership question is still open; we are scheduling a short follow-up."
+
+**Draft to Jordan:** "Congratulations on the new role, and thank you for your time with Fernvale. I would be glad to stay in touch."
+
+## Failure modes / edge cases
+
+- Reviewing skills evidence only, while an offer deadline quietly passes.
+- Pulling someone after an incomplete screen, a missing resume line, or silence.
+- Inventing a gate (a preferred tool, a guess about seniority) and pulling on it.
+- Sharing details the candidate did not agree to share.
+- Updating the slate without noticing the requirements version changed.
+
+## Forever don'ts
+
+- Never pull, reject or contact anyone, or send a note, from this skill.
+- Never add a requirement that is not on the current profile.
+- Never treat silence or missing evidence as a decision.
+- Never invent fit, interview results or motivation.
+- No numeric scores or weights; no production scoring internals.
+- No real candidate or client names in shared examples.
+
+## Provenance
+
+Operator-vetted: a recruiting operator's post-presentation review practice (pull only on confirmed reasons, missing evidence is a watch, no invented gates, why-fit notes backed by evidence), used on live shared slates and generalized to any role and employment model; QUALITY_BAR; not a bulk AI pack.

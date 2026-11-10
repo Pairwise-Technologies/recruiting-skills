@@ -5,15 +5,15 @@ description: >-
   decides (a hiring manager, client or panel): engagement gates first, then
   fit, track record, vetting and location in strict order, with a reason, a
   named risk and a confidence for every rank. Use when a recruiter asks "who
-  are the best ones to send?", wants a shared slate ordered, or needs a top
-  3-5 from a longer list. Works for any role and employment model. Not for
-  reading one candidate in depth (use candidate-assessment) or outreach (use
-  candidate-outreach).
+  are the best ones to send?" or needs a top 3-5 from a longer list. Works
+  for any role and employment model. Not for reading one candidate in depth
+  (use candidate-assessment), a slate already presented (use
+  candidate-slate-review) or outreach (use candidate-outreach).
 ---
 
 # candidate-ranking
 
-**When to use:** A recruiter has several candidates for one role and must pick and order the few to present. For reviewing a slate already presented against new evidence, use candidate-shortlist-review instead.
+**When to use:** A recruiter has several candidates for one role and must pick and order the few to present. For a slate already presented, use candidate-slate-review.
 
 **When not to use:** Building the role profile (role-requirements); a deep read of one person (candidate-assessment); outreach (candidate-outreach).
 
@@ -100,7 +100,7 @@ Turn per-candidate reads into an ordered slate the decision maker (hiring manage
 
 **Not recommended:** Ana Cole, last carried a quota in 2016, now leads sales enablement (stale, drift).
 
-**Gaps:** Dana has no screen; one on the deals she closed alone could move her up or off the slate.
+**Gaps:** Dana has no screen; one on the deals they closed alone could move them up or off the slate.
 
 **Why this order:** Elena and Kofi are both strong on fit and track record, so vetting decides: a current screen beats a partial one. Kofi is above Dana on fit itself: shown in a screen, not only claimed. A shuffled rerun gave the same order.
 
