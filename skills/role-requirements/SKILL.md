@@ -6,15 +6,16 @@ description: >-
   environment, comp and level, eligibility) before judging candidates. Use when
   opening a new search, when hiring-team feedback changes the bar, when the
   team keeps rejecting candidates that looked right on paper, or before running
-  candidate-assessment. Works for any role and employment model. Not for
-  writing the public job post or reading a candidate.
+  candidate-assessment. Also updates an existing profile from feedback. Works
+  for any role and employment model. Not for writing the public job post or
+  reading a candidate.
 ---
 
 # role-requirements
 
-**When to use:** A recruiter has a role (job description, intake notes, hiring-manager input) and needs to know what actually matters, and how much, before reading profiles.
+**When to use:** A recruiter has a role (job description, intake notes, hiring-manager input) and needs to know what actually matters, and how much, before reading profiles; or a live search has new feedback that may move the bar.
 
-**When not to use:** Writing the public posting (use role-job-description); reading a candidate (use candidate-assessment with this profile as input); when hiring-team feedback changes the bar on an existing profile, fold it in with role-requirements-tuning instead of rebuilding this profile from scratch.
+**When not to use:** Writing the public posting (use role-job-description); reading a candidate (use candidate-assessment with this profile as input).
 
 ## Purpose
 
@@ -25,7 +26,7 @@ Define success for the role first, then turn it into a requirements profile that
 Use whatever exists. Mark anything missing as open rather than guessing.
 
 - Job description, intake or kickoff notes.
-- Hiring-team feedback. The newest input wins over the description; note the conflict.
+- Hiring-team feedback. A confirmed change to the role wins over the description; note the conflict. A reaction to one candidate calibrates tiers but is not a rule (see Update an existing profile).
 - **Employment model:** in-house, agency direct-hire, agency contract, or other. Eligibility rules depend on it.
 - Engagement facts: location and on-site days, comp range and structure, duration for contracts, any client-agreement rules (cooldowns, tenure caps, non-solicits).
 - Optional: candidates the team liked or rejected, with reasons. These calibrate tiers better than the description.
@@ -38,6 +39,7 @@ Use whatever exists. Mark anything missing as open rather than guessing.
 - **Knockouts:** the short list of findings that end an evaluation.
 - **JD disagreements:** where the posting and this profile differ, so the recruiter can fix the posting.
 - **Open questions** for the hiring team.
+- On an update: a new version with a dated **change log**.
 
 ## Procedure
 
@@ -58,6 +60,21 @@ Use whatever exists. Mark anything missing as open rather than guessing.
    - **Over-gating:** only knockouts end an evaluation. Everything else trades off.
    - **Narrow domain:** name at least one adjacent domain that transfers, or say why none does.
 5. Write knockouts, JD disagreements and open questions. Send the profile to the hiring team to confirm before reading candidates.
+
+## Update an existing profile
+
+When feedback arrives on a live search, move the bar only as far as the feedback supports.
+
+1. **Sort the feedback** by who said it, when, and about what:
+   - **Role change:** they said the bar itself should move.
+   - **Reaction to one person:** calibrates tiers. If it sounds like a general rule, put its exact wording under open questions to confirm.
+   - **Vague** ("not quite right", "felt early"): draft 1-2 specific questions for the recruiter to ask. Never send them.
+   - **Conflicting:** reviewers disagree on the same axis, so the bar is undecided. Ask who decides before changing it.
+   - **Silence:** no signal. Never change the bar because feedback did not arrive.
+2. **Test each change.** It must tie to the mission or an outcome and be visible on a resume or in a screen. Feedback about background instead of the work (school, graduation year, "fit", "energy") never becomes a requirement.
+3. **Restart when the role moved.** If the mission, level or comp changed, or several axes moved at once, rerun the Procedure instead of patching.
+4. **Write the new version** with a dated change log: old and new wording, why, and who confirmed it. Add new JD disagreements.
+5. **Apply it to everyone.** A tighter bar applies to every candidate still in process; run candidate-slate-review on a presented slate. A looser bar reopens earlier passes on the dropped item; list them, with a short re-contact note drafted for a human to send.
 
 ## Worked synthetic example
 
@@ -84,6 +101,11 @@ Use whatever exists. Mark anything missing as open rather than guessing.
 
 **Open question:** is relocation support offered?
 
+**Update, 10 November:** the hiring manager wrote "Elena is what we mean: she named deals she closed alone. Dana felt early. We won't require payroll. The hire must visit Boise and Salt Lake clients monthly." No comment on Kofi.
+- Elena restates the Critical ownership must-have: no change. Payroll was already not required: confirmed, no change. Kofi: silence, no signal.
+- "Felt early" is vague. Question to draft: "Was it deal size, years carrying a quota, or how Dana ran the call?"
+- Monthly travel is a role change tied to the regional outcome. **v3 change log:** added "monthly travel in the Mountain region" (team and environment, must-have, screen); source: hiring manager, 10 November. Every candidate in process now needs the travel question, and the posting needs a travel line.
+
 ## Failure modes / edge cases
 
 - Copying the description's wish list into must-haves; every candidate then looks the same.
@@ -93,16 +115,17 @@ Use whatever exists. Mark anything missing as open rather than guessing.
 - Forgetting eligibility until late, then losing an offer to a cooldown or client rule.
 - An education bar higher than the work needs.
 - Ignoring comp structure, so candidate-assessment misreads level fit.
+- On updates: turning one loved or rejected candidate into a new must-have, or reading silence as a no.
 
 ## Forever don'ts
 
 - Never present the profile as a hire or reject decision.
 - Never contact candidates or send outreach from this skill.
-- Never invent role facts, comp or team feedback; mark gaps as open.
+- Never invent role facts, comp or team feedback; mark gaps as open. Never treat silence as feedback.
 - Never hard-code one employment model's rules as universal.
 - No numeric scores or weights; no production scoring internals.
 - No real candidate or client names in shared examples.
 
 ## Provenance
 
-Operator-vetted: a recruiting operator's own role-breakdown method (axes, per-search tiers, eligibility rules), used on live hiring loops and generalized to any role and employment model; outcome-first framing draws on `docs/SOURCES.md`; QUALITY_BAR; not a bulk AI pack.
+Operator-vetted: a recruiting operator's own role-breakdown method (axes, per-search tiers, eligibility rules, updates from confirmed feedback only), used on live hiring loops and generalized to any role and employment model; outcome-first framing draws on `docs/SOURCES.md`; QUALITY_BAR; not a bulk AI pack.
