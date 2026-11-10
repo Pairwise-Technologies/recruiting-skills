@@ -27,6 +27,7 @@ Use whatever exists. Mark anything missing as open rather than guessing.
 - **Requirements profile** from role-requirements, with its version or date. It is the source of truth.
 - Any existing posting or intake notes.
 - **What the hiring team approved to publish:** location and on-site days, pay, benefits, how to apply and by when, an equal-opportunity or accommodation statement, a short company blurb.
+- The profile's own **open questions**, which carry into the draft's open questions.
 - Optional: tone or length limits; a matching `domain-<field>-*` skill for how the field describes the work (never for adding gates).
 
 ## Outputs
@@ -40,10 +41,10 @@ Use whatever exists. Mark anything missing as open rather than guessing.
 1. **Start from the profile, not the old posting.** If only a posting exists, say the draft is unconfirmed and suggest role-requirements first. A wish-list post is not a confirmed bar.
 2. **Pick sections from what you have.** The core is title, about the role, what you will do, required and preferred. Work arrangement, pay and benefits, how to apply, company blurb and an equal-opportunity statement appear only when the inputs supply them. Never fill a section from general knowledge; a missing fact becomes an open question.
 3. **Title:** the plain title people search for. No internal levels, codes, slogans or gendered words.
-4. **Lead with the work.** Open with why the role exists and the first-year outcomes. Then 4-7 lines of what the person will do, each tied to an outcome.
-5. **Keep the required list short and honest.** Required lines come only from Critical or High must-haves and knockouts, and each must be checkable from a resume or a screen. Preferred tools, titles, employers and degrees stay preferred unless the profile makes them knockouts.
+4. **Lead with the work.** Open with why the role exists and the first-year outcomes. Then 3-6 lines of what the person will do, each tied to an outcome or the mission. If asked to make it exciting, use concrete outcomes and real details, not hype.
+5. **Keep the required list short and honest.** Required lines come only from Critical or High must-haves and knockouts, and each must be checkable from a resume or a screen. Medium and Low must-haves trade off, so they go under Preferred; so do strong-plus items. Not-required items stay out, except a plain line such as "any CRM is fine" when the old post demanded one. Word profile items for a candidate, without changing the bar.
 6. **Replace proxies with the work behind them.** A years or degree line becomes the outcome it stands for, unless the profile defends the number. Flag age- or background-coded wording ("digital native", "recent graduate", "young team", "culture fit") for a human. Swap hype words ("rockstar", "ninja", "crush") for plain ones; this is a light check, not a lever.
-7. **Publish logistics only as approved.** Location, on-site days, pay, sponsorship and contract length appear only in the form the hiring team approved. If no pay range was given, do not invent one; add this flag: "No pay range given. Many places require one in a posting (for example Colorado, California, New York, Washington, the EU). Confirm before you post."
+7. **Publish logistics only as approved.** Location, on-site days, travel, pay, sponsorship and contract length appear only in the form the hiring team approved. If no pay range was given, do not invent one; add this flag: "No pay range given. Many places require one in a posting (for example Colorado, California, New York, Washington, the EU). Confirm before you post." Add one line of context when useful, such as a remote role open to several states.
 8. **Check the draft against the profile.** Every required line traces to a must-have, and none is stricter than the profile. Where the old post disagreed with the profile, the draft follows the profile. Read it as a strong candidate from an adjacent domain: would they see themselves in it?
 9. **Audit a live posting** when asked or after the profile changes: does it match the current profile version, are dates and deadlines current, and does it come down once the role is filled?
 10. Stop. A human edits and posts.
@@ -60,15 +61,15 @@ Use whatever exists. Mark anything missing as open rather than guessing.
 
 **Required:** closed software deals as the named seller; 2+ years carrying a quota; sold to finance or HR buyers; authorization to work in the US (no sponsorship).
 
-**Preferred:** payroll or HR tech; mid-market experience; any CRM.
+**Preferred:** payroll or HR tech; mid-market experience; runs own discovery and forecast. Any CRM is fine.
 
 **Work arrangement:** hybrid, in Denver two days a week.
 
-**Trace notes:** "5+ years enterprise" dropped: it contradicts the profile, which wants mid-market closers. "2+ years carrying a quota" kept: the profile defends it under comp and level. The named CRM moved to preferred ("any CRM").
+**Trace notes:** "5+ years enterprise" dropped: it contradicts the profile, which wants mid-market closers. "2+ years carrying a quota" kept: the profile defends it under comp and level. The named CRM requirement became "any CRM is fine".
 
-**Flags:** "young, high-energy team" removed as age-coded; describe the team by size and pace instead. No pay range given. Many places require one in a posting (for example Colorado, California, New York, Washington, the EU). Confirm before you post.
+**Flags:** "young, high-energy team" removed as age-coded; the profile gives a team size, which the draft uses instead. No pay range given. Many places require one in a posting (for example Colorado, California, New York, Washington, the EU). Confirm before you post.
 
-**Open questions:** pay range and plan structure; benefits; how to apply and by when; whether to add an equal-opportunity statement.
+**Open questions:** pay range and plan structure; benefits; how to apply and by when; whether to add an equal-opportunity statement; relocation support (open in the profile).
 
 ## Failure modes / edge cases
 
