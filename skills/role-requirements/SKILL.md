@@ -67,14 +67,14 @@ When feedback arrives on a live search, move the bar only as far as the feedback
 
 1. **Sort the feedback** by who said it, when, and about what:
    - **Role change:** they said the bar itself should move.
-   - **Reaction to one person:** calibrates tiers. If it sounds like a general rule, put its exact wording under open questions to confirm.
+   - **Reaction to one person:** calibrates tiers. If it sounds like a general rule about the work, put its exact wording under open questions to confirm. If it is about background (school, graduation year, "fit", "energy"), ask what the person showed in their work instead.
    - **Vague** ("not quite right", "felt early"): draft 1-2 specific questions for the recruiter to ask. Never send them.
-   - **Conflicting:** reviewers disagree on the same axis, so the bar is undecided. Ask who decides before changing it.
+   - **Conflicting:** reviewers disagree on an axis or on how two axes weigh, so the bar is undecided. Ask who decides; until then the current version stands, and interviewers record evidence for each side separately.
    - **Silence:** no signal. Never change the bar because feedback did not arrive.
-2. **Test each change.** It must tie to the mission or an outcome and be visible on a resume or in a screen. Feedback about background instead of the work (school, graduation year, "fit", "energy") never becomes a requirement.
-3. **Restart when the role moved.** If the mission, level or comp changed, or several axes moved at once, rerun the Procedure instead of patching.
-4. **Write the new version** with a dated change log: old and new wording, why, and who confirmed it. Add new JD disagreements.
-5. **Apply it to everyone.** A tighter bar applies to every candidate still in process; run candidate-slate-review on a presented slate. A looser bar reopens earlier passes on the dropped item; list them, with a short re-contact note drafted for a human to send.
+2. **Test each change.** It must tie to the mission or an outcome and be visible on a resume or in a screen. Background never becomes a requirement.
+3. **Update or restart.** A new outcome or one new must-have is an update. Restart with the Procedure only when the role itself changed: a different level, comp band or core mission.
+4. **Write the new version** with a dated change log: old and new wording, why, and who said it. Mark it draft until the hiring team confirms, and add new JD disagreements. Keep live interviews running meanwhile, with the new checks added.
+5. **Apply it to everyone.** A tighter bar applies to every candidate still in process; run candidate-slate-review on a presented slate. Re-check every earlier pass whose reason is not on the new version, including passes made against an old posting or on a guess; list them, with a short re-contact note drafted for a human to send.
 
 ## Worked synthetic example
 
@@ -104,7 +104,7 @@ When feedback arrives on a live search, move the bar only as far as the feedback
 **Update, 10 November:** the hiring manager wrote "Elena is what we mean: she named deals she closed alone. Dana felt early. We won't require payroll. The hire must visit Boise and Salt Lake clients monthly." No comment on Kofi.
 - Elena restates the Critical ownership must-have: no change. Payroll was already not required: confirmed, no change. Kofi: silence, no signal.
 - "Felt early" is vague. Question to draft: "Was it deal size, years carrying a quota, or how Dana ran the call?"
-- Monthly travel is a role change tied to the regional outcome. **v3 change log:** added "monthly travel in the Mountain region" (team and environment, must-have, screen); source: hiring manager, 10 November. Every candidate in process now needs the travel question, and the posting needs a travel line.
+- Monthly travel is a role change tied to the regional outcome: an update, not a restart. **v3 change log (draft until confirmed):** added "monthly travel in the Mountain region" (team and environment, must-have, screen); source: hiring manager, 10 November. Every candidate in process now needs the travel question, and the posting needs a travel line.
 
 ## Failure modes / edge cases
 
