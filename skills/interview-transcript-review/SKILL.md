@@ -29,30 +29,30 @@ Use whatever exists. A partial transcript still gets a read, with lower confiden
 
 ## Outputs
 
-- **Coverage:** each screen-tagged must-have marked asked, partly asked or not asked.
-- **Evidence table:** per axis, a short quote or close paraphrase with its timestamp, and a basis: **verified** (walked through what they did, how and why, with specific detail), **claimed**, **inferred** or **no evidence**.
+- **Coverage:** each screen-tagged must-have and each knockout marked asked, partly asked or not asked.
+- **Evidence table:** per axis, a short quote or close paraphrase with its timestamp, and a basis: **verified** (walked through what they did, how and why, with specific detail), **claimed** (stated, including self-reported results), **inferred** (implied, or a "how I would do it" answer), **disputed** (sources disagree) or **no evidence**.
 - **Interview checks:** transcript problems, leading or off-limits questions, and interviewer opinions kept apart from evidence.
-- **Open items:** at most 3 things still to find out, not a script.
+- **Confidence** per axis, and **open items:** at most 3 things still to find out, not a script.
 - Optional **shareable summary** for the decision maker.
 
 ## Procedure
 
 1. **Check that the transcript may be used.** The candidate must have been told about the recording, and about any AI analysis, as the operator's process and local rules require. If that is unknown, ask before going on.
-2. **Inventory the conversation.** Length, speakers, early end, reschedule, or questions the candidate declined. An incomplete interview is a fact, not a hidden fail.
-3. **Map coverage.** For each screen-tagged must-have, record whether it was asked. Not asked is no evidence, never a miss.
+2. **Inventory the conversation.** Length, speakers, early end, missing segments, or questions the candidate declined. An incomplete interview or transcript is a fact, not a hidden fail.
+3. **Map coverage.** For each screen-tagged must-have and each knockout, record whether it was asked. Not asked is no evidence, never a miss; neither is a gap on a not-required item.
 4. **Extract evidence.** Quote briefly, with a timestamp, and tag the basis. A number with no baseline, or a title with no substance behind it, is claimed. Compare with the resume and list contradictions.
-5. **Check the transcript before any negative read.** Confirm each quote that hurts the candidate against the audio or the notes, and confirm the speaker label: a strong "answer" may be the interviewer talking. Speech-to-text drops and swaps words, more for some accents than others.
-6. **Check the interview, not only the candidate.** Note must-haves the interviewer skipped, leading questions that handed over the answer, and off-limits questions (age, family, health, religion, origin and similar). Flag off-limits questions for a human and leave the answers out of the evidence. Keep the interviewer's adjectives ("sharp", "low energy") as their opinion, apart from evidence.
+5. **Check the transcript before relying on it.** Confirm each quote that hurts the candidate against the audio or the notes, and confirm the speaker label on strong answers too: an "answer" may be the interviewer talking. Speech-to-text drops and swaps words, more for some accents than others. If the sources still disagree, tag the quote disputed, use neither version, and make it an open item.
+6. **Check the interview, not only the candidate.** Note must-haves the interviewer skipped, leading questions that handed over the answer, and off-limits questions or remarks (age, family, health, religion, origin and similar). Flag them for whoever owns interview quality in your process, and leave the answers out of the evidence. Keep the interviewer's adjectives ("sharp", "not a culture fit"), firsthand or relayed, as opinion apart from evidence; ask which job-related behavior they meant.
 7. **Do not over-read.** Tone, nerves, accent, grammar, filler words and short answers are not evidence of skill. Never infer emotion, honesty or personality. Leave out protected details the candidate volunteered. Lower confidence instead of filling gaps.
-8. **Write the debrief:** coverage, evidence table, interview checks, confidence and open items. For a shareable summary, keep only evidence about the work: no interviewer opinions, internal debate, interview-check flags or protected details.
-9. **Protect independent judgment.** On a panel, do not share this debrief with interviewers who have not yet submitted their own feedback.
-10. **Hand off and stop.** candidate-assessment owns the verdict. If the person is already on a presented slate, flag candidate-slate-review.
+8. **Write the debrief:** coverage, evidence table, interview checks, confidence and open items. For a shareable summary (decision maker or hiring channel), keep only evidence about the work: no interviewer opinions, internal debate, interview-check flags or protected details.
+9. **Protect independent judgment.** On a panel, do not share this debrief or the summary with interviewers who have not yet submitted their own feedback.
+10. **Hand off and stop.** candidate-assessment owns the verdict; if asked "should we move forward?", name what still blocks it. If the person is already on a presented slate, flag candidate-slate-review.
 
 ## Worked synthetic example
 
-**Inputs (synthetic):** Dana Whitfield, 28-minute screen on 7 November for the Fernvale mid-market AE profile (fictional). Candidate told about recording and AI notes at booking. Time ran out before deal ownership.
+**Inputs (synthetic):** Dana Whitfield, 28-minute screen on 7 November for the Fernvale mid-market AE profile (fictional). Candidate told about recording and AI notes at booking. Two speakers, no gaps; time ran out before deal ownership.
 
-**Coverage:** discovery (skills) asked; quota attainment asked; closed deals as the named seller (Critical, screen) not asked.
+**Coverage:** discovery (skills) asked; quota attainment asked; closed deals as the named seller (Critical, screen) not asked; knockouts (work authorization, Denver days) asked, both met.
 
 | Axis | Evidence | Basis |
 |---|---|---|
