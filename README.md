@@ -26,7 +26,7 @@ Skill names run from least specific to most specific, so a sorted list groups re
 candidate-assessment
 candidate-outreach
 candidate-ranking
-candidate-shortlist-review
+candidate-slate-review
 domain-engineering-hardware
 hiring-retrospective
 interview-transcript-review
@@ -43,11 +43,11 @@ role-requirements-tuning
 - [`candidate-assessment`](skills/candidate-assessment/SKILL.md): Read one candidate against a role-requirements profile from any amount of evidence: per-axis reads, an authenticity call, and a verdict with its confidence.
 - [`candidate-outreach`](skills/candidate-outreach/SKILL.md): Draft one cold outreach (initial + follow-up) for one candidate, for a human to review and send, or decide not to contact them.
 - [`candidate-ranking`](skills/candidate-ranking/SKILL.md): Rank candidates for one role into a short slate for the person who decides: engagement gates first, then fit, track record, vetting and location in strict order, each rank with a reason, a risk and a confidence.
-- [`candidate-shortlist-review`](skills/candidate-shortlist-review/SKILL.md): Review an already-presented shortlist when new evidence arrives, with keep, watch or withdraw recommendations and short why-fit notes the decision maker may see.
+- [`candidate-slate-review`](skills/candidate-slate-review/SKILL.md): Review a slate already presented when anything changes, candidate side first: keep, watch or pull submission for each person, with why-fit notes and short updates drafted for a human to send.
 - [`domain-engineering-hardware`](skills/domain-engineering-hardware/SKILL.md): Field knowledge for hardware engineering searches: transfer rules, ownership cues and inflation signals. Loads with the core skills.
 - [`hiring-retrospective`](skills/hiring-retrospective/SKILL.md): Blameless retro of a finished or stalled search: requirements against the hire and the interviewed set, interview signal, funnel and timeline, with at most 3 suggestions.
-- [`interview-transcript-review`](skills/interview-transcript-review/SKILL.md): Read a screen or interview transcript against a role-requirements profile: what was demonstrated, what was only claimed, and what was never asked, as a structured debrief a human can check.
-- [`role-job-description`](skills/role-job-description/SKILL.md): Write a public job description from a confirmed role-requirements profile: mission and outcomes in plain language, required vs preferred clearly separated, and no gates the profile did not confirm.
+- [`interview-transcript-review`](skills/interview-transcript-review/SKILL.md): Extract the evidence from one screen or interview transcript against a role-requirements profile: what was shown, claimed or never asked, and how the interview was run. No verdict.
+- [`role-job-description`](skills/role-job-description/SKILL.md): Write a public job description from a role-requirements profile: the work and outcomes first, a short required list that traces to the profile, and only the sections the inputs support.
 - [`role-requirements`](skills/role-requirements/SKILL.md): Break a role into mission, outcomes and a tiered requirements profile, with knockouts and open questions, before reading candidates.
 - [`role-requirements-tuning`](skills/role-requirements-tuning/SKILL.md): Fold confirmed hiring-team feedback into an existing role-requirements profile, with silence and vague impressions left out of the bar.
 
