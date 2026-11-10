@@ -74,7 +74,7 @@ When feedback arrives on a live search, move the bar only as far as the feedback
 2. **Test each change.** It must tie to the mission or an outcome and be visible on a resume or in a screen. Background never becomes a requirement.
 3. **Update or restart.** A new outcome or one new must-have is an update. Restart with the Procedure only when the role itself changed: a different level, comp band or core mission.
 4. **Write the new version** with a dated change log: old and new wording, why, and who said it. Mark it draft until the hiring team confirms, and add new JD disagreements. Keep live interviews running meanwhile, with the new checks added.
-5. **Apply it to everyone.** A tighter bar applies to every candidate still in process; run candidate-slate-review on a presented slate. Re-check every earlier pass whose reason is not on the new version, including passes made against an old posting or on a guess; list them, with a short re-contact note drafted for a human to send.
+5. **Apply it to everyone.** A looser bar applies at once. A tighter bar applies to every candidate still in process once confirmed; pass no one on a draft change. Run candidate-slate-review on a presented slate. Re-check every earlier pass whose reason is not on the new version, including passes made against an old posting or on a guess; list them, with a short re-contact note drafted for a human to send.
 
 ## Worked synthetic example
 
