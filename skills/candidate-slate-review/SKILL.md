@@ -40,14 +40,14 @@ Keep a presented slate honest over time. Most slates change because of the candi
 
 1. **Confirm the bar.** Review against the current profile version. If it changed since the snapshot, say so. Never add a gate the profile does not have.
 2. **Candidate side first.** For each person: still interested, other offers and their deadlines, counteroffer risk, comp or notice changes. Re-check every named risk in the snapshot, dated ones first. A candidate who has not replied after the logged attempts your process sets is a watch ("confirm interest"), not a pull.
-3. **Representation.** Check that consent covers what you plan to share (resume, screen findings, comp). If consent is unknown, share only work evidence already shared, and flag it to confirm. Look for new conflicts (another submission, a direct application); flag them for a human, and pull only when an engagement rule requires it.
+3. **Representation.** Check that consent covers what you plan to share (resume, screen findings, comp, other offers and their deadlines). If consent is unknown, share only work evidence already shared, and flag it to confirm. Look for new conflicts (another submission, a direct application); flag them for a human, and pull only when an engagement rule requires it.
 4. **Gates and Critical must-haves.** Re-apply the profile's knockouts and the engagement rules. A confirmed knockout supports a pull. Unknown is not a miss: list unconfirmed gates to check.
 5. **New evidence.** Use the debrief or assessment, not the raw transcript. Evidence from another source (a work sample) counts; name the source. An interview that never reached a must-have leaves it an open item; a disputed quote or new doubt about a Critical must-have is a watch. A confirmed miss on a Critical must-have supports a pull. A refusal to engage is a process issue for the human to weigh.
 6. **Same pass for everyone.** Every slate member gets the same checks. Never compare two people on an axis only one of them was assessed on. The slate's mix is never a reason for one person's status.
 7. **Recommend** keep, watch or pull for each person. No new comment from the decision maker is not a reason either way.
 8. **Why-fit notes** for keeps and watches: 2-4 sentences on why this person fits, the strongest evidence, and what is still open. Share only what the candidate agreed to. Never protected details, salary history, interviewer opinions, internal debate or scores. If evidence is thin, say what is known and what is open.
 9. **Draft the updates,** one line per change: what changed for the decision maker, and any candidate deadline that needs their decision; a clear, kind note to any candidate whose status changed, and a check-in for any dated risk. Never send them.
-10. **Log the dated reasons and stop.** A human decides what changes.
+10. **Log the dated reasons and stop.** A human decides what changes. If pulls or withdrawals leave the slate thin, rerun candidate-ranking and freeze a new snapshot; never edit the old one.
 
 ## Worked synthetic example
 
@@ -55,7 +55,7 @@ Keep a presented slate honest over time. Most slates change because of the candi
 
 **Elena Sorensen: keep** (confidence: high). Still engaged; OTE ask unchanged at $160K, the named risk. She agreed to share her resume and comp ask. **Why-fit note:** Elena has closed mid-market HR software deals as the named seller for 3 years and grew her territory from 6 to 15 accounts. A 3 November screen confirmed three deals she closed alone. Open: her OTE ask is just above the band.
 
-**Kofi Mensah: watch** (confidence: medium). The snapshot's dated risk came due: his other offer expires 14 November, and he would wait for Fernvale only with an interview this week. **Next fact:** an interview date by 13 November. **Why-fit note:** Kofi closes full-cycle deals selling finance software and owned a region from launch. Open: a screen for this role.
+**Kofi Mensah: watch** (confidence: medium). The snapshot's dated risk came due: his other offer expires 14 November, and he would wait for Fernvale only with an interview this week. He agreed to share the deadline with the hiring team. **Next fact:** an interview date by 13 November. **Why-fit note:** Kofi closes full-cycle deals selling finance software and owned a region from launch. Open: a screen for this role.
 
 **Dana Whitfield: keep, open item** (confidence: medium). The 7 November screen confirmed discovery skills but never reached deal ownership, the Critical must-have. Nothing new casts doubt on it, so it stays open: not a watch or a pull. **Next fact:** which deals they closed alone. **Why-fit note:** Dana sells payroll software to finance and HR leads and showed a clear discovery process in a screen. Open: which deals they closed alone.
 
