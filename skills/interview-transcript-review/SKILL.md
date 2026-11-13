@@ -52,7 +52,7 @@ Use whatever exists. A partial transcript still gets a read, with lower confiden
 
 **Inputs (synthetic):** Dana Whitfield, 28-minute screen on 7 November for the Fernvale mid-market AE profile (fictional). Candidate told about recording and AI notes at booking. Two speakers, no gaps; time ran out before deal ownership.
 
-**Coverage:** discovery (skills) asked; quota attainment asked; closed deals as the named seller (Critical, screen) not asked; knockouts (work authorization, Denver days) asked, both met.
+**Coverage:** discovery and forecasting (skills) asked; closed deals as the named seller (Critical, screen) not asked; team and environment (screen) not asked; knockouts (work authorization, Denver days) asked, both met.
 
 | Axis | Evidence | Basis |
 |---|---|---|
@@ -61,7 +61,7 @@ Use whatever exists. A partial transcript still gets a read, with lower confiden
 | Ownership depth: closed alone | Not asked; time ran out | No evidence |
 | Skills: forecasting | 16:05, transcript reads "I don't own the forecast"; the audio says "I do own the forecast" | Claimed (corrected) |
 
-**Interview checks:** at 21:30 the interviewer asked whether they have children "because of travel". Off-limits: flagged, answer excluded; the job-related question is whether the travel works for them. Interviewer note "seems sharp" kept as opinion.
+**Interview checks:** at 21:30 the interviewer asked whether they have children "because of the on-site days". Off-limits: flagged, answer excluded; the job-related question is whether the two Denver days work for them. Interviewer note "seems sharp" kept as opinion.
 
 **Confidence:** low on ownership depth, the Critical axis; medium on discovery.
 
