@@ -14,7 +14,7 @@ description: >-
 
 **When to use:** You ran a screen or interview, you have notes or a transcript, and you want help writing your feedback before you submit it.
 
-**When not to use:** Feedback for an interview you did not run, or on behalf of any other interviewer (their feedback is theirs to write or not); a neutral debrief of someone else's transcript (use interview-transcript-review if you have it); the overall verdict across all evidence (candidate-assessment); ordering several candidates (candidate-ranking).
+**When not to use:** Feedback for an interview you did not run, or on behalf of any other interviewer (their feedback is theirs to write or not); a neutral debrief of someone else's transcript (use interview-transcript-review); the overall verdict across all evidence (candidate-assessment); ordering several candidates (candidate-ranking).
 
 ## Purpose
 
@@ -35,17 +35,19 @@ Interview feedback is often a gut call with no evidence, or a transcript dump wi
 ## Procedure
 
 1. **Check the inputs.** Confirm the interview, the role, and that you ran it. If you use a recording or transcript, confirm the candidate was told about the recording and any AI analysis, as your process and local rules require; if unknown, work from your own notes. If the transcript is missing or partial, say so and work from your notes at lower confidence. Never invent what was said.
-2. **Map evidence to each item.** For each must-have or scorecard item: a short quote or close paraphrase (with a timestamp if you have one), its basis (shown in detail, claimed, not asked), and a read (strong, adequate, weak, not covered). Check speaker labels: a strong "answer" may be your own words.
-3. **Keep the gates honest.** Only confirmed must-haves and knockouts can drive a negative read. Preferred or unconfirmed items can add, never subtract. Not asked is not covered, never weak.
+2. **Map evidence to each item.** For each must-have or scorecard item: a short quote or close paraphrase (with a timestamp if you have one), its basis (verified: walked through in specific detail; claimed; not asked), and a read (strong, adequate, weak, not covered). An item a screen cannot show (for example one tagged resume) is "not for this interview". Check speaker labels: a strong "answer" may be your own words. If the transcript and your notes disagree on a quote, mark it disputed, check the recording, and use neither version until you have; the read stays open.
+3. **Keep the gates honest.** Only confirmed must-haves and knockouts can drive a negative read. Preferred or unconfirmed items can add, never subtract. Not asked is not covered, never weak. A knockout you never asked about is an item to confirm, not a pass or a fail.
 4. **Skip what earlier rounds covered,** unless you learned something new about it.
-5. **Concerns, at most 3,** each tied to a quote or to a must-have you did not reach.
-6. **Strip what does not belong.** Leave out tone, nerves, accent, fluency (unless the role needs the language), guesses about honesty or personality, and anything about protected traits the candidate volunteered. If you asked something off-limits, move it to your private notes and leave the answer out.
+5. **Concerns, at most 3,** each tied to a quote. A must-have you did not reach is a gap to name, not a weakness in the candidate.
+6. **Strip what does not belong.** If notes or ratings from another interviewer were pasted in, do not use them. Leave out tone, nerves, accent, fluency (unless the role needs the language), guesses about honesty or personality ("quiet", "culture fit"), and anything about protected traits the candidate volunteered. If you asked something off-limits, move it to your private notes and leave the answer out.
 7. **Terms check (private).** Compare what you told the candidate about duration, conversion, pay, location and start with the confirmed terms. Note any mismatch and the correct wording so you can fix it with the candidate.
 8. **Choose your rating** on your process's scale (or advance, hold, pass). The skill may say what the evidence supports; you pick. Add a one-line reason and how confident you are.
 9. **Next round should probe:** 2-3 topics, each tied to a weak or uncovered must-have. Topics, not a script.
 10. **Write it in your voice** (match length and words from your past notes if given), then stop. You submit.
 
 ## Output format
+
+Give the Private block separately, after the paste-ready text, never inside it. If your system takes plain text, write one line per item instead of the table.
 
 ```
 Feedback: <candidate label> · <interview type> · <date>
@@ -59,11 +61,11 @@ Private (do not paste): <terms mismatch, off-limits moments, exclusions>
 
 ## Worked synthetic example
 
-**Interview (synthetic):** you screened Dana Whitfield for the Fernvale mid-market Account Executive profile (fictional), 30 minutes, transcript available.
+**Interview (synthetic):** you screened Dana Whitfield for the Fernvale mid-market Account Executive profile (fictional), 28 minutes, transcript available.
 
-- Discovery with finance buyers: walked through their first-call agenda step by step (shown) → strong.
+- Discovery with finance buyers: walked through their first-call agenda step by step (verified) → strong.
 - Closed deals as the named seller (Critical): "142% of quota", no quota size; deals closed alone not reached (claimed / not asked) → not covered.
-- Forecasting (preferred): not discussed → left out, not a negative.
+- Multi-threading with procurement (strong-plus): not discussed → left out, not a negative.
 - Private terms check: you said "it's a one-year contract"; confirmed terms are direct hire with no set duration. Correct it with the candidate.
 - Summary: clear, concrete discovery process with finance buyers. Quota attainment stated without a baseline. Deal ownership, the Critical item, not yet covered.
 - Concerns: 1. "142% of quota" with no quota size or deal count (claimed only).
