@@ -24,6 +24,7 @@ Skill names run from least specific to most specific, so a sorted list groups re
 
 ```
 candidate-assessment
+candidate-interview-brief
 candidate-outreach
 candidate-ranking
 domain-engineering-hardware
@@ -37,6 +38,7 @@ role-requirements
 ## Skills
 
 - [`candidate-assessment`](skills/candidate-assessment/SKILL.md): Read one candidate against a role-requirements profile from any amount of evidence: per-axis reads, an authenticity call, and a verdict with its confidence.
+- [`candidate-interview-brief`](skills/candidate-interview-brief/SKILL.md): Write a one-screen, shareable brief for the next interviewer from a candidate-assessment read and the screen: who the candidate is, evidence against each must-have, what's already covered, what to pressure-test, and logistics.
 - [`candidate-outreach`](skills/candidate-outreach/SKILL.md): Draft one cold outreach (initial + follow-up) for one candidate, for a human to review and send, or decide not to contact them.
 - [`candidate-ranking`](skills/candidate-ranking/SKILL.md): Rank candidates for one role into a short slate for the person who decides: engagement gates first, then fit, track record, vetting and location in strict order, each rank with a reason, a risk and a confidence.
 - [`domain-engineering-hardware`](skills/domain-engineering-hardware/SKILL.md): Field knowledge for hardware engineering searches: transfer rules, ownership cues and inflation signals. Loads with the core skills.
