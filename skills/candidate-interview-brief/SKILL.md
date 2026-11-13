@@ -14,7 +14,7 @@ description: >-
 
 **When to use:** A candidate is about to meet the hiring team or a client, and the interviewer needs a short, shareable brief so the interview builds on the screen instead of repeating it.
 
-**When not to use:** Deciding whether the candidate should move forward (candidate-assessment); ordering several candidates (candidate-ranking); a debrief of one transcript (interview-transcript-review, if you have it); status updates on a slate already presented (candidate-slate-review, if you have it); outreach (candidate-outreach); an interview script.
+**When not to use:** Deciding whether the candidate should move forward (candidate-assessment); ordering several candidates (candidate-ranking); a debrief of one transcript (interview-transcript-review); status updates on a slate already presented (candidate-slate-review); outreach (candidate-outreach); an interview script.
 
 ## Purpose
 
@@ -31,23 +31,23 @@ Interviewers often walk in with only a resume, so they re-ask what the screen se
 ## Outputs
 
 - **One brief** in eight short sections (below), marked draft until a human approves it.
-- **A list of what was left out** and why, for the sender only.
+- **Notes for the sender only:** what was left out and why; anything the reader may need to hear another way (a resume that is out of date, a tight deadline, a promise the candidate was given that is not a confirmed term), each as one plain line.
 
 ## Procedure
 
-1. **Check what the reader already has.** Name the resume version and notes already shared, and never contradict them. If the brief would correct something, flag it to the sender instead.
-2. **Filter for the reader.** Share only what the candidate agreed may be shared with this reader; if that is unknown, share only work evidence and flag it to confirm. Leave out internal notes and ratings, comp or rate, internal contact details, other interviewers' names or opinions, visa type or immigration details, other employers' processes or offers, and any scoring internals. When unsure whether something may be shared, leave it out and list it.
+1. **Check what the reader already has.** Name the resume version and notes already shared, and never contradict them. If the brief would correct something (an old title, say), leave it out and write the sender a line: "Resume says X; current is Y; tell the reader."
+2. **Filter for the reader.** Share only what the candidate agreed may be shared with this reader; if that is unknown, share only work evidence and flag it to confirm. Leave out internal notes and ratings (show only the basis words in section 5, never the internal read scale), comp or rate, internal contact details, other interviewers' names or opinions, visa type or immigration details, other employers' processes or offers, and any scoring internals. When unsure whether something may be shared, leave it out and list it.
 3. **Write the eight sections, one screen total:**
    1. **Who:** current role, years, the one or two pieces of work closest to this role.
    2. **Why interested:** what the candidate said draws them to this role. "No evidence" if the screen did not cover it.
    3. **Stage:** where they are in this process and which rounds remain. Nothing about other processes.
    4. **Work eligibility:** one line: "Meets the role's stated requirement: yes / to confirm."
-   5. **Evidence vs must-haves:** one line per confirmed must-have with the read and its basis (verified in the screen, claimed, not covered). Preferred items appear as "nice to have" or not at all, never as a gap. Mark the profile draft if it is.
+   5. **Evidence vs must-haves:** one line per confirmed must-have with its basis (verified in the screen, claimed, not covered). Preferred items appear as "nice to have" or not at all, never as a gap. Mark the profile draft if it is; a must-have the team has not confirmed is listed as "not yet confirmed", with no read.
    6. **Already covered:** topics the screen settled, so the interviewer can skip them.
    7. **What to pressure-test:** 2-3 topics, each tied to an Unverified, Gap or not-covered must-have. Topics, not questions.
    8. **Logistics and terms:** availability, location stance, start window and terms exactly as confirmed. Never state a duration, conversion or pay the role does not confirm.
-4. **Check the brief against the sources.** Every fact traces to the assessment, the screen or the confirmed terms.
-5. **Hand it to the sender** with the left-out list, and stop. A human approves and sends it.
+4. **Check the brief against the sources.** Every fact traces to the assessment, the screen or the confirmed terms. A field with no source reads "not in notes" or "to confirm"; never fill it.
+5. **Hand it to the sender** with the notes for the sender, as plain short lines that read well on a phone, and stop. If asked to send it, decline: a human approves and sends. If asked to include everything, keep to one screen and put the rest in the sender notes.
 
 ## Worked synthetic example
 
@@ -57,12 +57,12 @@ Interviewers often walk in with only a resume, so they re-ask what the screen se
 2. Why interested: wants longer mid-market cycles and a larger territory (screen).
 3. Stage: passed the recruiter screen; hiring-manager round next, then a panel.
 4. Work eligibility: meets the stated requirement: yes.
-5. Evidence: discovery with finance buyers, verified in the screen. Closed deals as the named seller (Critical), claimed ("142% of quota", no baseline). Mid-market cycle length, not covered.
+5. Evidence: discovery with finance buyers, verified in the screen. Closed deals as the named seller (Critical), not covered; quota attainment claimed ("142% of quota", no baseline). Mid-market cycle length, not covered.
 6. Already covered: first-call process, reasons for leaving, Denver hybrid days.
 7. Pressure-test: two deals closed alone, start to signature; how they would run a 90-day mid-market cycle.
 8. Logistics: hybrid 2 days in Denver, start in about 4 weeks.
 
-Left out (sender only): their comp ask, the recruiter's "seems sharp" note, and a competing offer they mentioned.
+Notes for the sender: left out their comp ask, the recruiter's "seems sharp" note and a competing offer they mentioned. If the offer deadline is tight, tell the hiring manager yourself, with the candidate's agreement.
 
 ## Failure modes / edge cases
 
