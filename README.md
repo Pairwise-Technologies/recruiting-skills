@@ -28,6 +28,7 @@ candidate-outreach
 candidate-ranking
 domain-engineering-hardware
 hiring-retrospective
+role-job-description
 role-requirements
 ```
 
@@ -41,6 +42,7 @@ role-requirements
 - [`candidate-ranking`](skills/candidate-ranking/SKILL.md): Rank candidates for one role into a short slate for the person who decides: engagement gates first, then fit, track record, vetting and location in strict order, each rank with a reason, a risk and a confidence.
 - [`domain-engineering-hardware`](skills/domain-engineering-hardware/SKILL.md): Field knowledge for hardware engineering searches: transfer rules, ownership cues and inflation signals. Loads with the core skills.
 - [`hiring-retrospective`](skills/hiring-retrospective/SKILL.md): Blameless retro of a finished or stalled search: requirements against the hire and the interviewed set, interview signal, funnel and timeline, with at most 3 suggestions.
+- [`role-job-description`](skills/role-job-description/SKILL.md): Write a public job description from a role-requirements profile: the work and outcomes first, a short required list that traces to the profile, and only the sections the inputs support.
 - [`role-requirements`](skills/role-requirements/SKILL.md): Break a role into mission, outcomes and a tiered requirements profile, with knockouts and open questions, before reading candidates.
 
 ## Hard rules
