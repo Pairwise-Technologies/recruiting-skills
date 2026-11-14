@@ -42,7 +42,7 @@ role-requirements
 - [`candidate-ranking`](skills/candidate-ranking/SKILL.md): Rank candidates for one role into a short slate for the person who decides: engagement gates first, then fit, track record, vetting and location in strict order, each rank with a reason, a risk and a confidence.
 - [`domain-engineering-hardware`](skills/domain-engineering-hardware/SKILL.md): Field knowledge for hardware engineering searches: transfer rules, ownership cues and inflation signals. Loads with the core skills.
 - [`hiring-retrospective`](skills/hiring-retrospective/SKILL.md): Blameless retro of a finished or stalled search: requirements against the hire and the interviewed set, interview signal, funnel and timeline, with at most 3 suggestions.
-- [`interview-feedback`](skills/interview-feedback/SKILL.md): Help an interviewer turn their own notes or transcript into paste-ready feedback for one interview they ran: evidence per requirement, concerns tied to quotes, next-round topics, and a rating they choose.
+- [`interview-feedback`](skills/interview-feedback/SKILL.md): Turn notes or a transcript from one interview into paste-ready feedback: evidence per requirement, concerns tied to quotes, next-round topics, and a check of the writer's own rating against the evidence.
 - [`role-requirements`](skills/role-requirements/SKILL.md): Break a role into mission, outcomes and a tiered requirements profile, with knockouts and open questions, before reading candidates.
 
 ## Hard rules
