@@ -29,6 +29,7 @@ candidate-ranking
 candidate-slate-review
 domain-engineering-hardware
 hiring-retrospective
+interview-feedback
 interview-transcript-review
 role-job-description
 role-requirements
@@ -45,6 +46,7 @@ role-requirements
 - [`candidate-slate-review`](skills/candidate-slate-review/SKILL.md): Review a slate already presented when anything changes, candidate side first: keep, watch or pull submission for each person, with why-fit notes and short updates drafted for a human to send.
 - [`domain-engineering-hardware`](skills/domain-engineering-hardware/SKILL.md): Field knowledge for hardware engineering searches: transfer rules, ownership cues and inflation signals. Loads with the core skills.
 - [`hiring-retrospective`](skills/hiring-retrospective/SKILL.md): Blameless retro of a finished or stalled search: requirements against the hire and the interviewed set, interview signal, funnel and timeline, with at most 3 suggestions.
+- [`interview-feedback`](skills/interview-feedback/SKILL.md): Turn notes or a transcript from one interview into paste-ready feedback: evidence per requirement, concerns tied to quotes, next-round topics, and a check of the writer's own rating against the evidence.
 - [`interview-transcript-review`](skills/interview-transcript-review/SKILL.md): Extract the evidence from one screen or interview transcript against a role-requirements profile: what was shown, claimed or never asked, and how the interview was run. No verdict.
 - [`role-job-description`](skills/role-job-description/SKILL.md): Write a public job description from a role-requirements profile: the work and outcomes first, a short required list that traces to the profile, and only the sections the inputs support.
 - [`role-requirements`](skills/role-requirements/SKILL.md): Break a role into mission, outcomes and a tiered requirements profile, with knockouts and open questions, before reading candidates; update it as confirmed feedback arrives.
