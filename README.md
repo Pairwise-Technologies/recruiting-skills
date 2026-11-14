@@ -26,6 +26,7 @@ Skill names run from least specific to most specific, so a sorted list groups re
 candidate-assessment
 candidate-outreach
 candidate-ranking
+candidate-slate-review
 domain-engineering-hardware
 hiring-retrospective
 interview-transcript-review
@@ -41,6 +42,7 @@ role-requirements
 - [`candidate-assessment`](skills/candidate-assessment/SKILL.md): Read one candidate against a role-requirements profile from any amount of evidence: per-axis reads, an authenticity call, and a verdict with its confidence.
 - [`candidate-outreach`](skills/candidate-outreach/SKILL.md): Draft one cold outreach (initial + follow-up) for one candidate, for a human to review and send, or decide not to contact them.
 - [`candidate-ranking`](skills/candidate-ranking/SKILL.md): Rank candidates for one role into a short slate for the person who decides: engagement gates first, then fit, track record, vetting and location in strict order, each rank with a reason, a risk and a confidence.
+- [`candidate-slate-review`](skills/candidate-slate-review/SKILL.md): Review a slate already presented when anything changes, candidate side first: keep, watch or pull submission for each person, with why-fit notes and short updates drafted for a human to send.
 - [`domain-engineering-hardware`](skills/domain-engineering-hardware/SKILL.md): Field knowledge for hardware engineering searches: transfer rules, ownership cues and inflation signals. Loads with the core skills.
 - [`hiring-retrospective`](skills/hiring-retrospective/SKILL.md): Blameless retro of a finished or stalled search: requirements against the hire and the interviewed set, interview signal, funnel and timeline, with at most 3 suggestions.
 - [`interview-transcript-review`](skills/interview-transcript-review/SKILL.md): Extract the evidence from one screen or interview transcript against a role-requirements profile: what was shown, claimed or never asked, and how the interview was run. No verdict.
