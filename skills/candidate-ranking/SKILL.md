@@ -5,15 +5,15 @@ description: >-
   decides (a hiring manager, client or panel): engagement gates first, then
   fit, track record, vetting and location in strict order, with a reason, a
   named risk and a confidence for every rank. Use when a recruiter asks "who
-  are the best ones to send?", wants a shared slate ordered, or needs a top
-  3-5 from a longer list. Works for any role and employment model. Not for
-  reading one candidate in depth (use candidate-assessment) or outreach (use
-  candidate-outreach).
+  are the best ones to send?" or needs a top 3-5 from a longer list. Works
+  for any role and employment model. Not for reading one candidate in depth
+  (use candidate-assessment), a slate already presented (use
+  candidate-slate-review) or outreach (use candidate-outreach).
 ---
 
 # candidate-ranking
 
-**When to use:** A recruiter has several candidates for one role and must pick and order the few to present, or order a slate already shared.
+**When to use:** A recruiter has several candidates for one role and must pick and order the few to present. For a slate already presented, use candidate-slate-review.
 
 **When not to use:** Building the role profile (role-requirements); a deep read of one person (candidate-assessment); outreach (candidate-outreach).
 
@@ -54,7 +54,7 @@ Turn per-candidate reads into an ordered slate the decision maker (hiring manage
 6. **Name one risk per candidate:** over-level, comp ask vs band, work authorization to confirm, commute, flight-risk tenure pattern, thin vetting, padded-resume signals, competing offer. No reason and no risk, no rank.
 7. **Check the slate as a set.** Give the decision maker real choice; if two are near-duplicates, keep the stronger and note the other as a backup. Use calibration notes to check the slate against profiles this decision maker advanced or rejected before.
 8. **Check the order.** If an AI agent ranks, rank again from a shuffled list; if the top 3 change, settle them head to head and say so. For a high-stakes slate, a second ranker can rank blind from the same inputs; send top-3 disagreements to the recruiter with both reasons.
-9. **Write the output, run the pre-send checklist, freeze the snapshot.** Save it with the slate (a file or an ATS note) before it is shared. Never edit it afterward; add a dated note instead. Stop; a human decides what goes out.
+9. **Write the output, run the pre-send checklist, freeze the snapshot.** Save it with the slate (a file or an ATS note) before it is shared. Never edit it afterward; later changes go in the dated status log of candidate-slate-review. Stop; a human decides what goes out.
 
 ## Per-candidate format
 
@@ -62,7 +62,7 @@ Turn per-candidate reads into an ordered slate the decision maker (hiring manage
 - **Why:** one line on fit, then track record.
 - **Vetted:** yes, partial or no, with the evidence (date, which role, how it went).
 - **Location:** metro, and commute or relocation stance.
-- **Risk:** the one that most threatens this hire; others after it.
+- **Risk:** the one that most threatens this hire, with its date if it has one (offer deadline, notice end); others after it.
 
 ## Pre-send checklist
 
@@ -71,6 +71,7 @@ Turn per-candidate reads into an ordered slate the decision maker (hiring manage
 - Comp asks and work authorization are confirmed, not assumed, for every slate member.
 - Thin vetting is said plainly; low-confidence ranks are flagged.
 - The note the decision maker will see carries the why, not only the name.
+- Each candidate agreed to be submitted, and to what the note shares.
 
 ## Measuring
 
@@ -100,7 +101,7 @@ Turn per-candidate reads into an ordered slate the decision maker (hiring manage
 
 **Not recommended:** Ana Cole, last carried a quota in 2016, now leads sales enablement (stale, drift).
 
-**Gaps:** Dana has no screen; one on the deals she closed alone could move her up or off the slate.
+**Gaps:** Dana has no screen; one on the deals they closed alone could move them up or off the slate.
 
 **Why this order:** Elena and Kofi are both strong on fit and track record, so vetting decides: a current screen beats a partial one. Kofi is above Dana on fit itself: shown in a screen, not only claimed. A shuffled rerun gave the same order.
 
