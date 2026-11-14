@@ -4,10 +4,11 @@ description: >-
   Run a blameless retrospective on a finished, stalled or reset search:
   compare the written requirements with who was hired and who was
   interviewed, then read interview signal, the funnel and the timeline.
-  Returns a short report and at most 3 evidence-backed changes for the next
-  similar search. Use when a search closes, is cancelled or reset, or a team
-  asks why it took so long. Works from a full pipeline down to a job
-  description and the hire. Not for reading one candidate or rating a hire.
+  Returns a short report, at most 3 screen checks and at most 3
+  evidence-backed changes for the next similar search. Use when a search
+  closes, is cancelled or reset, or a team asks why it took so long. Works
+  from a full pipeline down to a job description and the hire. Not for
+  reading one candidate or rating a hire.
 ---
 
 # hiring-retrospective
@@ -45,7 +46,7 @@ Name the tier at the top of the report. Every finding carries a confidence: **hi
 
 ## Procedure
 
-Tier B: skip whichever of steps 2, 5 and 6 have no records. Tier C: skip steps 2, 5 and 6; run step 3 (Tier C tags only) and step 4 (single-interview path only).
+Tier B: skip whichever of steps 2, 5 and 6 have no records. Tier C: skip steps 2, 5 and 6; run step 3 (Tier C tags only) and step 4 (single-interview path only, no screen checks).
 
 1. **Scope.** State what ended, the outcome anchor and how they entered (through the interview plan, or around it, such as a referral or a prior working relationship), the tier, and the one question the team most wants answered, if stated; otherwise use: what most delayed reaching the outcome anchor?
 2. **Rebuild the timeline.** List dated events as days from search open (Day 0): requirements agreed, each revision, first candidate shown, first candidate the team advanced, hire entered pipeline, interviews, feedback, offer, acceptance. Prefer written records over memory, and mark inferred dates.
@@ -57,6 +58,7 @@ Tier B: skip whichever of steps 2, 5 and 6 have no records. Tier C: skip steps 2
    - **Misweighted:** the right idea at the wrong tier (required vs preferred, or whatever tiers the profile uses).
    Then check two lists. Underrated: candidates the team liked who fit the written requirements poorly. Overrated: candidates who fit on paper and were rejected, especially several for the same reason. Name the requirement behind each. Use existing reads; do not re-assess candidates.
 4. **Interview signal.** For each stage with results: did it record evidence tied to a requirement, or only an impression? Did a yes at this stage predict the final decision? Look for repeated checks of the same thing, knockouts found late that an earlier step could have caught, missing or late feedback, and disagreements settled by time pressure. With one interview result, name the requirement the decision turned on, whether the profile had it, and whether a resume or screen could have shown it earlier.
+   **Screen checks for next time** (Tier A and B). Find where rejected or dropped candidates left the process (screen, hiring-team review, later round, offer) and the requirement or behavior behind each exit. Exits for the candidate's own reasons (another offer, timing) are not screen misses. An exit after the screen for a reason the screen could have tested means the screen missed it. Write at most 3 checks for the next similar search's screen, each naming the exit it would have caught and what strong evidence looks like. Topics, not a script; no candidate names or quoted answers.
 5. **Funnel.** Count candidates per stage and compute pass-through only on candidates who finished a stage; leave active ones out. Once the search has closed, candidates still active form their own exit group, not closed out. Under about 20 candidates, lead with patterns, not percentages. Group exit reasons. A pass rate near 0% or 100% is a flag: check whether the stage, the candidate pool or the requirement is the cause. Compare where volume came from with where the hire came from.
 6. **Timeline.** Compute what the dates allow: time to agreed requirements, time to first candidate shown, time to first good candidate (the first one the team advanced past screen), time to hire (hire entered pipeline to acceptance), time to fill (search open to acceptance), and feedback lag per stage. Find the longest wait that was not the candidate's choice. If the hire entered late, assess, as a low-confidence hypothesis, whether the final requirements written on Day 0 would have surfaced the hire sooner.
 7. **Suggestions, at most 3.** Each one is a single concrete change: a requirement edit with its tier, an intake or interview step, or a timing rule. Tie it to finding numbers, give its confidence, and say how the next search will show it worked. Prefer the requirement edit that explains the most rejections and the fix for the longest wait. Add one or two lines on what worked, so the team keeps it.
@@ -67,9 +69,10 @@ Tier B: skip whichever of steps 2, 5 and 6 have no records. Tier C: skip steps 2
 1. **Header:** outcome, tier, records used, records missing.
 2. **Timeline:** one table of Day N events, if any dates exist.
 3. **Findings:** numbered, each with confidence and evidence, grouped by requirements, interview signal, funnel, timeline.
-4. **Suggestions:** at most 3, as in step 7.
-5. **Keep:** what worked.
-6. **To learn more next time:** the one record that would have raised confidence most.
+4. **Screen checks for next time:** at most 3, from step 4, or "none needed" ("not run" at Tier C).
+5. **Suggestions:** at most 3, as in step 7.
+6. **Keep:** what worked.
+7. **To learn more next time:** the one record that would have raised confidence most.
 
 ## Worked synthetic example
 
@@ -83,6 +86,8 @@ Tier B: skip whichever of steps 2, 5 and 6 have no records. Tier C: skip steps 2
 3. Missing, medium: closing full-cycle deals as the named seller decided every final-round outcome, but no requirement named it.
 4. Misweighted, low: payroll software was required, yet C7 sold HR software and the debrief never raised it. A low-cost hypothesis: require selling to finance or HR buyers, with payroll preferred, and see whether finalists still separate.
 5. Timeline, medium: 8 days of feedback lag after the final panel was the longest wait not caused by a candidate.
+
+**Screen checks for next time:** two of three panel rejections were "enterprise, never closed alone", a reason the screen could have tested. Check: two deals closed as the named seller, start to signature; strong evidence names the buyer, the cycle length and what they did alone.
 
 **Suggestions:**
 1. Replace "5+ years enterprise sales (required)" with "closed full-cycle mid-market deals as the named seller (required)". Evidence: 1 to 3. Confidence: medium. Check: next search, most panel rejections cite a written requirement.
@@ -103,6 +108,7 @@ Tier B: skip whichever of steps 2, 5 and 6 have no records. Tier C: skip steps 2
 - Calling a late hire bad luck before checking when the requirements caught up with what the team wanted.
 - Blaming selection for a problem that started at intake, or that came from a business change mid-search.
 - Reading a hire who came in around the interview plan as proof the requirements worked or failed; the requirement findings then describe the pipeline, not the hire.
+- Screen checks that only restate a requirement, with no exit behind them and no picture of strong evidence.
 - Turning the hire's traits into requirements: name the work that separated candidates, not who the hire is or where they came from.
 
 ## Forever don'ts
@@ -116,4 +122,4 @@ Tier B: skip whichever of steps 2, 5 and 6 have no records. Tier C: skip steps 2
 
 ## Provenance
 
-Adapted from blameless postmortem practice (Google SRE book), rewritten for hiring searches; funnel and time metrics use standard ATS definitions; QUALITY_BAR; not a bulk AI pack.
+Adapted from blameless postmortem practice (Google SRE book), rewritten for hiring searches; the screen-checks step comes from a recruiting operator's close-of-search practice of turning late exits into earlier screen checks; funnel and time metrics use standard ATS definitions; QUALITY_BAR; not a bulk AI pack.
