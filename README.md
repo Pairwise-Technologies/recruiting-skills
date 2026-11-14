@@ -47,7 +47,7 @@ role-requirements
 - [`hiring-retrospective`](skills/hiring-retrospective/SKILL.md): Blameless retro of a finished or stalled search: requirements against the hire and the interviewed set, interview signal, funnel and timeline, with at most 3 suggestions.
 - [`interview-transcript-review`](skills/interview-transcript-review/SKILL.md): Extract the evidence from one screen or interview transcript against a role-requirements profile: what was shown, claimed or never asked, and how the interview was run. No verdict.
 - [`role-job-description`](skills/role-job-description/SKILL.md): Write a public job description from a role-requirements profile: the work and outcomes first, a short required list that traces to the profile, and only the sections the inputs support.
-- [`role-requirements`](skills/role-requirements/SKILL.md): Break a role into mission, outcomes and a tiered requirements profile, with knockouts and open questions, before reading candidates.
+- [`role-requirements`](skills/role-requirements/SKILL.md): Break a role into mission, outcomes and a tiered requirements profile, with knockouts and open questions, before reading candidates; update it as confirmed feedback arrives.
 
 ## Hard rules
 
